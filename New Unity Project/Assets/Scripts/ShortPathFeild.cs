@@ -107,51 +107,6 @@ public class Grid
 	}
 
 
-	/*Old Methord
-	//get index mafter converting to a local array index
-	private int getIndex(int index,int arrmid,int expectedmid)
-	{
-		return (expectedmid + (index - arrmid));
-	}
-
-	public void addObsticle(Obsticle obsticle)
-	{
-		Queue list = new Queue ((obsticle.weight*2-1)*(obsticle.weight*2-1)*3);
-		list.insert (obsticle.x,obsticle.z,obsticle.weight);
-
-		//temperary holding place for boolean marking array
-		bool[,] mark=new bool[obsticle.weight*2-1,obsticle.weight*2-1];
-		int midmark = obsticle.weight - 1;
-
-		while (!list.isEmpty()) {
-			Node temindex = list.delete();
-			int markz = getIndex (temindex.z, obsticle.z, midmark);
-			int markx= getIndex (temindex.x, obsticle.x, midmark);
-			if (mark[markz,markx])
-				continue;
-
-			int x = temindex.x;
-			int z = temindex.z;
-			int counter = temindex.counter;
-			arr [z,x] = counter;
-			mark [markz, markx] = true;
-
-			if (counter-1 <= 0)
-				continue;
-
-			if (!isoutoofbound (x, z + 1) )
-				list.insert (x, z + 1, counter - 1);
-			if (!isoutoofbound (x, z - 1)  )
-				list.insert (x, z - 1, counter - 1);
-			if (!isoutoofbound (x + 1, z) )
-				list.insert (x + 1, z, counter - 1);
-			if (!isoutoofbound (x - 1, z) )
-				list.insert (x - 1, z, counter - 1);
-
-		}
-
-	}
-	*/
 	public void recalculateGrid(int goalx,int goalz)
 	{
 		list.reset();

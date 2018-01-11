@@ -27,7 +27,7 @@ public class CharacterAttrib : MonoBehaviour {
 		pathfeild = tem.GetComponent<ShortPathFeild> ();
 
 		grid=pathfeild.initGrid ();
-		for(int z=0;z<18;z++)
+		for(int z=0;z<16;z++)
 		grid.obsticles.Add (new Obsticle(20,z,0));
 		
 	}
@@ -51,7 +51,7 @@ public class CharacterAttrib : MonoBehaviour {
 		bool pathblocked=pathfeild.addCharacterObsticle (x,z,obsticleradius,gameObject.GetInstanceID());
 
 		if (pathblocked)
-			this.gameObject.SetActive (false);
+			Destroy (this.gameObject);
 	}
 
 

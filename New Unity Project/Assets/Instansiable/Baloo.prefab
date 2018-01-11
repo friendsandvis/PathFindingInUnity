@@ -1332,7 +1332,7 @@ MonoBehaviour:
   totallife: 100
   attackpower: 50
   speed: 0.5
-  obsticleradius: 2
+  obsticleradius: 1
   obsticleweight: 0
   infight: 0
   opponentattribs: {fileID: 0}
