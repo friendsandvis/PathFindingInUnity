@@ -1,0 +1,3387 @@
+fileFormatVersion: 2
+guid: 333f0f821681269478c5cbdfd62ad11c
+timeCreated: 1487083798
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Belly_C
+    100002: Belly_C_grp
+    100004: CHEST1
+    100006: CHEST2
+    100008: CHEST3
+    100010: cluster10Handle
+    100012: cluster11Handle
+    100014: cluster39Handle
+    100016: cluster40Handle
+    100018: cluster4Handle
+    100020: cluster5Handle
+    100022: cluster6Handle
+    100024: cluster7Handle
+    100026: cluster8Handle
+    100028: cluster9Handle
+    100030: COG_C
+    100032: COG_C_grp
+    100034: CTRLS
+    100036: Ex_IK_C1
+    100038: Ex_IK_C1_grp
+    100040: Ex_IK_C1_grp_grp
+    100042: Ex_IK_C2
+    100044: Ex_IK_C2_grp
+    100046: Ex_IK_C3
+    100048: Ex_IK_C3_grp
+    100050: Ex_IK_C3_grp_01
+    100052: Ex_IK_C4
+    100054: Ex_IK_C4_grp
+    100056: Ex_IK_C5
+    100058: Ex_IK_C5_grp
+    100060: Ex_IK_C5_grp_01
+    100062: Ex_IK_C6
+    100064: Ex_IK_C6_grp
+    100066: Ex_IK_C7
+    100068: Ex_IK_C7_grp
+    100070: Ex_IK_C7_grp_01
+    100072: Ex_IK_C8
+    100074: Ex_IK_C8_grp
+    100076: Ex_IK_C8_grp 1
+    100078: Ex_IK_C9
+    100080: Ex_IK_C9_grp
+    100082: Ex_IK_C9_grp 1
+    100084: Eyes_C
+    100086: Eyes_C_grp
+    100088: group1
+    100090: group10
+    100092: group11
+    100094: group12
+    100096: group13
+    100098: group14
+    100100: group15
+    100102: group16
+    100104: group17
+    100106: group18
+    100108: group2
+    100110: group20
+    100112: group21
+    100114: group22
+    100116: group27
+    100118: group28
+    100120: group3
+    100122: group4
+    100124: group5
+    100126: group6
+    100128: group7
+    100130: group8
+    100132: group9
+    100134: //RootNode
+    100136: HEAD1
+    100138: HEAD2
+    100140: Head_C
+    100142: Head_C_grp
+    100144: Head_grp
+    100146: HIP1
+    100148: Hip_FK_C
+    100150: Hip_FK_C_grp
+    100152: joint197
+    100154: joint197 1
+    100156: L_Ankle
+    100158: L_Ankle_ikHandle
+    100160: L_BALL
+    100162: L_Ball_ikHandle
+    100164: L_CLAVICLE
+    100166: L_CLAVICLE_tip
+    100168: L_Collar_C
+    100170: L_Collar_C_Auto_grp
+    100172: L_Collar_C_grp
+    100174: L_Collar_Up_C
+    100176: L_Collar_Up_C_grp
+    100178: L_Ear
+    100180: L_Ear_A_C1
+    100182: L_Ear_A_C1_grp
+    100184: L_Ear_A_C1_grp_01
+    100186: L_Ear_A_C1_grp_02
+    100188: L_Ear_A_C2
+    100190: L_Ear_A_C2_grp
+    100192: L_Ear_A_C2_grp_01
+    100194: L_Ear_A_C2_grp_02
+    100196: L_Ear_A_C3
+    100198: L_Ear_A_C3_grp
+    100200: L_Ear_A_C3_grp_01
+    100202: L_Ear_A_C3_grp_02
+    100204: L_Ear_A_C4
+    100206: L_Ear_A_C4_grp
+    100208: L_Ear_A_C4_grp_01
+    100210: L_Ear_A_C4_grp_02
+    100212: L_Ear_B_C1
+    100214: L_Ear_B_C1_grp
+    100216: L_Ear_B_C1_grp_01
+    100218: L_Ear_B_C1_grp_02
+    100220: L_Ear_B_C2
+    100222: L_Ear_B_C2_grp
+    100224: L_Ear_B_C2_grp_01
+    100226: L_Ear_B_C2_grp_02
+    100228: L_Ear_B_C3
+    100230: L_Ear_B_C3_grp
+    100232: L_Ear_B_C3_grp_01
+    100234: L_Ear_B_C3_grp_02
+    100236: L_Ear_C
+    100238: L_Ear_C_C1
+    100240: L_Ear_C_C1_grp
+    100242: L_Ear_C_C1_grp_01
+    100244: L_Ear_C_C1_grp_02
+    100246: L_Ear_C_C2
+    100248: L_Ear_C_C2_grp
+    100250: L_Ear_C_C2_grp_01
+    100252: L_Ear_C_C2_grp_02
+    100254: L_Ear_C_C3
+    100256: L_Ear_C_C3_grp
+    100258: L_Ear_C_C3_grp_01
+    100260: L_Ear_C_C3_grp_02
+    100262: L_Ear_C_grp
+    100264: L_Ear_ctrl_grp
+    100266: L_Ear_ctrl_grp_01
+    100268: L_Ear_ctrl_inner__grp
+    100270: L_Ear_D_C1
+    100272: L_Ear_D_C1_grp
+    100274: L_Ear_D_C1_grp_01
+    100276: L_Ear_D_C1_grp_02
+    100278: L_Ear_D_C2
+    100280: L_Ear_D_C2_grp
+    100282: L_Ear_D_C2_grp_01
+    100284: L_Ear_D_C2_grp_02
+    100286: L_Ear_E_C1
+    100288: L_Ear_E_C1_grp
+    100290: L_Ear_E_C1_grp_01
+    100292: L_Ear_Grp
+    100294: L_ELBOW
+    100296: L_ELBOW1
+    100298: L_Eye_C
+    100300: L_F_Auto_ikHandle
+    100302: L_HIP
+    100304: L_Hip_C
+    100306: L_Hip_C_grp
+    100308: L_HIP_root
+    100310: L_Hip_Up_C
+    100312: L_Hip_Up_C_grp
+    100314: L_KNEE
+    100316: L_KNEE1
+    100318: L_Nostril_C
+    100320: L_PAW
+    100322: L_PAW1
+    100324: L_Paw_1_ikHandle
+    100326: L_Paw_2_ikHandle
+    100328: L_Paw_2_ikHandle_grp
+    100330: L_Paw_ikHandle
+    100332: L_PAWEND
+    100334: L_SHOLDER
+    100336: L_SHOLDER1
+    100338: L_THIGH
+    100340: L_THIGH1
+    100342: L_TOE
+    100344: L_Toe_ikHandle
+    100346: L_Toe_ikHandle_grp
+    100348: L_TUSK1
+    100350: L_TUSK10
+    100352: L_TUSK11
+    100354: L_TUSK12
+    100356: L_TUSK13
+    100358: L_TUSK2
+    100360: L_TUSK3
+    100362: L_TUSK4
+    100364: L_TUSK5
+    100366: L_TUSK6
+    100368: L_TUSK7
+    100370: L_TUSK8
+    100372: L_TUSK9
+    100374: L_Tusk_C
+    100376: L_Tusk_C_grp
+    100378: L_WRIST
+    100380: L_Wrist_ikHandle
+    100382: L_Wrist_ikHandle_grp
+    100384: LB_Ankle_FK_C
+    100386: LB_Ankle_FK_C_grp
+    100388: LB_Ankle_FK_C_grp_01
+    100390: LB_Ankle_IK_grp
+    100392: LB_Ball_FK_C
+    100394: LB_Ball_FK_C_grp
+    100396: LB_Ball_FK_C_grp_01
+    100398: LB_Ball_IK_grp1
+    100400: LB_Ball_IK_grp2
+    100402: LB_Ball_Lift_grp1
+    100404: LB_Ball_Lift_grp2
+    100406: LB_Ball_Roll_grp
+    100408: LB_ctrl_grp
+    100410: LB_curve_cluster21Handle1_Btm
+    100412: LB_Extra
+    100414: LB_Fing_C_grp
+    100416: LB_Finger_C
+    100418: LB_FK_Ctrl_grp
+    100420: LB_Heel_Roll_grp
+    100422: LB_IK_Ctrl_grp
+    100424: LB_IK_FK_Stretch
+    100426: LB_IK_FK_Stretch_grp
+    100428: LB_IK_grp
+    100430: LB_Ind_C
+    100432: LB_Ind_C_grp
+    100434: LB_Ind_C_grp_01
+    100436: LB_INDEX1
+    100438: LB_INDEX2
+    100440: LB_Inverse_1
+    100442: LB_Inverse_2
+    100444: LB_Inverse_3
+    100446: LB_Inverse_4
+    100448: LB_Inverse_5
+    100450: LB_Inverse_6
+    100452: LB_Inverse_7
+    100454: LB_Inverse_8
+    100456: LB_Knee_FK_C
+    100458: LB_Knee_FK_C_grp
+    100460: LB_Knee_FK_C_grp_01
+    100462: LB_Leg_IK_C
+    100464: LB_Leg_IK_C_grp
+    100466: LB_MID1
+    100468: LB_MID2
+    100470: LB_Mid_C
+    100472: LB_Mid_C_grp
+    100474: LB_Mid_C_grp_01
+    100476: LB_PINKY1
+    100478: LB_PINKY2
+    100480: LB_Pinky_C
+    100482: LB_Pinky_C_grp
+    100484: LB_Pinky_C_grp1
+    100486: LB_Polv_C
+    100488: LB_Polv_C_grp
+    100490: LB_Thigh_FK_C
+    100492: LB_Thigh_FK_C_grp
+    100494: LB_Thigh_FK_C_grp_01
+    100496: LB_Toe_C_grp
+    100498: LB_Toe_IK_grp
+    100500: LB_Toe_IK_grp1
+    100502: LB_Toe_Out
+    100504: LB_Toe_Pinky
+    100506: LB_Toe_Roll_grp
+    100508: LE_A_1
+    100510: LE_A_2
+    100512: LE_A_3
+    100514: LE_A_4
+    100516: LE_A_5
+    100518: LE_A_6
+    100520: LE_A_7
+    100522: LE_B_1
+    100524: LE_B_2
+    100526: LE_B_3
+    100528: LE_B_4
+    100530: LE_B_5
+    100532: LE_B_6
+    100534: LE_B_7
+    100536: LE_C_1
+    100538: LE_C_2
+    100540: LE_C_3
+    100542: LE_C_4
+    100544: LE_C_5
+    100546: LE_C_6
+    100548: LE_C_7
+    100550: LE_D_1
+    100552: LE_D_2
+    100554: LE_D_3
+    100556: LE_D_4
+    100558: LE_D_5
+    100560: LE_D_6
+    100562: LE_E_1
+    100564: LE_E_2
+    100566: LE_E_3
+    100568: LE_E_4
+    100570: Leg_grp
+    100572: LF_Ankle_IK_grp
+    100574: LF_Ball_IK_grp1
+    100576: LF_Ball_IK_grp2
+    100578: LF_Ball_Lift_grp1
+    100580: LF_Ball_Lift_grp2
+    100582: LF_Ball_Roll_grp
+    100584: LF_ctrl_grp
+    100586: LF_curve_cluster21Handle_Btm
+    100588: LF_Elbow_FK_C
+    100590: LF_Elbow_FK_C_grp
+    100592: LF_Elbow_FK_C_grp_01
+    100594: LF_Extra
+    100596: LF_Fing_C_grp
+    100598: LF_Finger_C
+    100600: LF_FK_Ctrl_grp
+    100602: LF_Heel_Roll_grp
+    100604: LF_IK_Ctrl_grp
+    100606: LF_IK_FK_Stretch
+    100608: LF_IK_FK_Stretch_grp
+    100610: LF_IK_grp
+    100612: LF_Ind_C
+    100614: LF_Ind_C_grp
+    100616: LF_Ind_C_grp_01
+    100618: LF_INDEX1
+    100620: LF_INDEX2
+    100622: LF_Inverse_1
+    100624: LF_Inverse_10
+    100626: LF_Inverse_1_grp
+    100628: LF_Inverse_2
+    100630: LF_Inverse_3
+    100632: LF_Inverse_4
+    100634: LF_Inverse_5
+    100636: LF_Inverse_6
+    100638: LF_Inverse_7
+    100640: LF_Inverse_8
+    100642: LF_Inverse_8a
+    100644: LF_Inverse_9
+    100646: LF_Leg_IK_C
+    100648: LF_Leg_IK_C_grp
+    100650: LF_MID1
+    100652: LF_MID2
+    100654: LF_Mid_C
+    100656: LF_Mid_C_grp
+    100658: LF_Mid_C_grp_01
+    100660: LF_Paw_FK_C
+    100662: LF_Paw_FK_C1
+    100664: LF_Paw_FK_C1_grp
+    100666: LF_Paw_FK_C1_grp_01
+    100668: LF_Paw_FK_C_grp
+    100670: LF_Paw_FK_C_grp_01
+    100672: LF_PINKY1
+    100674: LF_PINKY2
+    100676: LF_Pinky_C
+    100678: LF_Pinky_C_grp
+    100680: LF_Pinky_C_grp_01
+    100682: LF_Polv_C
+    100684: LF_Polv_C_grp
+    100686: LF_Shoulder_FK_C
+    100688: LF_Shoulder_FK_C_grp
+    100690: LF_Shoulder_FK_C_grp_01
+    100692: LF_Toe_C_grp
+    100694: LF_Toe_IK_grp
+    100696: LF_Toe_IK_grp1
+    100698: LF_Toe_Out
+    100700: LF_Toe_Pinky
+    100702: LF_Toe_Roll_grp
+    100704: LF_Wrist_FK_C
+    100706: LF_Wrist_FK_C_grp
+    100708: LF_Wrist_FK_C_grp_01
+    100710: Lower_Jaw1
+    100712: Lower_Jaw2
+    100714: Lower_Jaw3
+    100716: Lower_Jaw4
+    100718: Lower_Jaw5
+    100720: Master_C
+    100722: Mid_Nostril_C
+    100724: NECK
+    100726: Neck_C1
+    100728: Neck_C_grp
+    100730: Nostril_C_grp
+    100732: pasted__polySurface38
+    100734: Placement_C
+    100736: R_Ankle
+    100738: R_Ankle_ikHandle
+    100740: R_BALL
+    100742: R_Ball_ikHandle
+    100744: R_CLAVICLE
+    100746: R_CLAVICLE_tip
+    100748: R_Collar_C
+    100750: R_Collar_C_Auto_grp
+    100752: R_Collar_C_grp
+    100754: R_Collar_Up_C
+    100756: R_Collar_Up_C_grp
+    100758: R_Ear
+    100760: R_Ear_A_C1
+    100762: R_Ear_A_C1_grp
+    100764: R_Ear_A_C1_grp_01
+    100766: R_Ear_A_C1_grp_02
+    100768: R_Ear_A_C2
+    100770: R_Ear_A_C2_grp
+    100772: R_Ear_A_C2_grp_01
+    100774: R_Ear_A_C2_grp_02
+    100776: R_Ear_A_C3
+    100778: R_Ear_A_C3_grp
+    100780: R_Ear_A_C3_grp_01
+    100782: R_Ear_A_C3_grp_02
+    100784: R_Ear_A_C4
+    100786: R_Ear_A_C4_grp
+    100788: R_Ear_A_C4_grp_01
+    100790: R_Ear_A_C4_grp_02
+    100792: R_Ear_B_C1
+    100794: R_Ear_B_C1_grp
+    100796: R_Ear_B_C1_grp_01
+    100798: R_Ear_B_C1_grp_02
+    100800: R_Ear_B_C2
+    100802: R_Ear_B_C2_grp
+    100804: R_Ear_B_C2_grp_01
+    100806: R_Ear_B_C2_grp_02
+    100808: R_Ear_B_C3
+    100810: R_Ear_B_C3_grp
+    100812: R_Ear_B_C3_grp_01
+    100814: R_Ear_B_C3_grp_02
+    100816: R_Ear_C
+    100818: R_Ear_C_C1
+    100820: R_Ear_C_C1_grp
+    100822: R_Ear_C_C1_grp_01
+    100824: R_Ear_C_C1_grp_02
+    100826: R_Ear_C_C2
+    100828: R_Ear_C_C2_grp
+    100830: R_Ear_C_C2_grp_01
+    100832: R_Ear_C_C2_grp_02
+    100834: R_Ear_C_C3
+    100836: R_Ear_C_C3_grp
+    100838: R_Ear_C_C3_grp_01
+    100840: R_Ear_C_C3_grp_02
+    100842: R_Ear_C_grp
+    100844: R_Ear_ctrl_grp
+    100846: R_Ear_ctrl_grp_01
+    100848: R_Ear_D_C1
+    100850: R_Ear_D_C1_grp
+    100852: R_Ear_D_C1_grp_01
+    100854: R_Ear_D_C1_grp_02
+    100856: R_Ear_D_C2
+    100858: R_Ear_D_C2_grp
+    100860: R_Ear_D_C2_grp_01
+    100862: R_Ear_D_C2_grp_02
+    100864: R_Ear_E_C1
+    100866: R_Ear_E_C1_grp
+    100868: R_Ear_E_C1_grp_01
+    100870: R_Eat_grp
+    100872: R_ELBOW
+    100874: R_ELBOW1
+    100876: R_Eye_C
+    100878: R_F_Auto_ikHandle
+    100880: R_HIP
+    100882: R_Hip_C
+    100884: R_Hip_C_grp
+    100886: R_HIP_root
+    100888: R_Hip_Up_C
+    100890: R_Hip_Up_C_grp
+    100892: R_KNEE
+    100894: R_KNEE1
+    100896: R_Nostril_C
+    100898: R_PAW
+    100900: R_PAW1
+    100902: R_Paw_1_ikHandle
+    100904: R_Paw_2_ikHandle
+    100906: R_Paw_2_ikHandle_grp
+    100908: R_Paw_ikHandle
+    100910: R_PAWEND
+    100912: R_SHOLDER
+    100914: R_SHOLDER1
+    100916: R_THIGH
+    100918: R_THIGH1
+    100920: R_TOE
+    100922: R_Toe_ikHandle
+    100924: R_Toe_ikHandle_grp
+    100926: R_TUSK1
+    100928: R_TUSK10
+    100930: R_TUSK11
+    100932: R_TUSK12
+    100934: R_TUSK13
+    100936: R_TUSK2
+    100938: R_TUSK3
+    100940: R_TUSK4
+    100942: R_TUSK5
+    100944: R_TUSK6
+    100946: R_TUSK7
+    100948: R_TUSK8
+    100950: R_TUSK9
+    100952: R_Tusk_C
+    100954: R_Tusk_C_grp
+    100956: R_WRIST
+    100958: R_Wrist_ikHandle
+    100960: R_Wrist_ikHandle_grp
+    100962: RB_Ankle_FK_C
+    100964: RB_Ankle_FK_C_grp
+    100966: RB_Ankle_FK_C_grp_01
+    100968: RB_Ankle_IK_grp
+    100970: RB_Ball_FK_C
+    100972: RB_Ball_FK_C_grp
+    100974: RB_Ball_FK_C_grp_01
+    100976: RB_Ball_IK_grp1
+    100978: RB_Ball_IK_grp2
+    100980: RB_Ball_Lift_grp1
+    100982: RB_Ball_Lift_grp2
+    100984: RB_Ball_Roll_grp
+    100986: RB_ctrl_grp
+    100988: RB_curve_cluster21Handle_Btm
+    100990: RB_Extra
+    100992: RB_Fing_C_grp
+    100994: RB_Finger_C
+    100996: RB_FK_Ctrl_grp
+    100998: RB_Heel_Roll_grp
+    101000: RB_IK_Ctrl_grp
+    101002: RB_IK_FK_Stretch
+    101004: RB_IK_FK_Stretch_grp
+    101006: RB_IK_grp
+    101008: RB_Ind_C
+    101010: RB_Ind_C_grp
+    101012: RB_Ind_C_grp_01
+    101014: RB_INDEX1
+    101016: RB_INDEX2
+    101018: RB_Inverse_1
+    101020: RB_Inverse_2
+    101022: RB_Inverse_3
+    101024: RB_Inverse_4
+    101026: RB_Inverse_5
+    101028: RB_Inverse_6
+    101030: RB_Inverse_7
+    101032: RB_Inverse_8
+    101034: RB_Knee_FK_C
+    101036: RB_Knee_FK_C_grp
+    101038: RB_Knee_FK_C_grp_01
+    101040: RB_Leg_IK_C
+    101042: RB_Leg_IK_C_grp
+    101044: RB_MID1
+    101046: RB_MID2
+    101048: RB_Mid_C
+    101050: RB_Mid_C_grp
+    101052: RB_Mid_C_grp_01
+    101054: RB_PINKY1
+    101056: RB_PINKY2
+    101058: RB_Pinky_C
+    101060: RB_Pinky_C_grp
+    101062: RB_Pinky_C_grp1
+    101064: RB_Polv_C
+    101066: RB_Polv_C_grp
+    101068: RB_Thigh_FK_C
+    101070: RB_Thigh_FK_C_grp
+    101072: RB_Thigh_FK_C_grp_01
+    101074: RB_Toe_C_grp
+    101076: RB_Toe_IK_grp
+    101078: RB_Toe_IK_grp1
+    101080: RB_Toe_Out
+    101082: RB_Toe_Pinky
+    101084: RB_Toe_Roll_grp
+    101086: RE_A_1
+    101088: RE_A_2
+    101090: RE_A_3
+    101092: RE_A_4
+    101094: RE_A_5
+    101096: RE_A_6
+    101098: RE_A_7
+    101100: RE_B_1
+    101102: RE_B_2
+    101104: RE_B_3
+    101106: RE_B_4
+    101108: RE_B_5
+    101110: RE_B_6
+    101112: RE_B_7
+    101114: RE_C_1
+    101116: RE_C_2
+    101118: RE_C_3
+    101120: RE_C_4
+    101122: RE_C_5
+    101124: RE_C_6
+    101126: RE_C_7
+    101128: RE_D_1
+    101130: RE_D_2
+    101132: RE_D_3
+    101134: RE_D_4
+    101136: RE_D_5
+    101138: RE_D_6
+    101140: RE_E_1
+    101142: RE_E_2
+    101144: RE_E_3
+    101146: RE_E_4
+    101148: RF_Ankle_IK_grp
+    101150: RF_Ball_IK_grp1
+    101152: RF_Ball_IK_grp2
+    101154: RF_Ball_Lift_grp1
+    101156: RF_Ball_Lift_grp2
+    101158: RF_Ball_Roll_grp
+    101160: RF_ctrl_grp
+    101162: RF_curve_cluster21Handle_Btm
+    101164: RF_Elbow_FK_C
+    101166: RF_Elbow_FK_C_grp
+    101168: RF_Elbow_FK_C_grp_01
+    101170: RF_Extra
+    101172: RF_Fing_C_grp
+    101174: RF_Finger_C
+    101176: RF_FK_Ctrl_grp1
+    101178: RF_Heel_Roll_grp
+    101180: RF_IK_Ctrl_grp
+    101182: RF_IK_FK_Stretch
+    101184: RF_IK_FK_Stretch_grp
+    101186: RF_IK_grp
+    101188: RF_Ind_C
+    101190: RF_Ind_C_grp
+    101192: RF_Ind_C_grp_01
+    101194: RF_INDEX1
+    101196: RF_INDEX2
+    101198: RF_Inverse_1
+    101200: RF_Inverse_10
+    101202: RF_Inverse_1_grp
+    101204: RF_Inverse_2
+    101206: RF_Inverse_3
+    101208: RF_Inverse_4
+    101210: RF_Inverse_5
+    101212: RF_Inverse_6
+    101214: RF_Inverse_7
+    101216: RF_Inverse_8
+    101218: RF_Inverse_8a
+    101220: RF_Inverse_9
+    101222: RF_Leg_IK_C
+    101224: RF_Leg_IK_C_grp
+    101226: RF_MID1
+    101228: RF_MID2
+    101230: RF_Mid_C
+    101232: RF_Mid_C_grp
+    101234: RF_Mid_C_grp_01
+    101236: RF_Paw_FK_C
+    101238: RF_Paw_FK_C1
+    101240: RF_Paw_FK_C1_grp
+    101242: RF_Paw_FK_C1_grp_01
+    101244: RF_Paw_FK_C_grp
+    101246: RF_Paw_FK_C_grp_01
+    101248: RF_PINKY1
+    101250: RF_PINKY2
+    101252: RF_Pinky_C
+    101254: RF_Pinky_C_grp
+    101256: RF_Pinky_C_grp01
+    101258: RF_Polv_C
+    101260: RF_Polv_C_grp
+    101262: RF_Shoulder_FK_C
+    101264: RF_Shoulder_FK_C_grp
+    101266: RF_Shoulder_FK_C_grp_01
+    101268: RF_Toe_C_grp
+    101270: RF_Toe_IK_grp
+    101272: RF_Toe_IK_grp1
+    101274: RF_Toe_Out
+    101276: RF_Toe_Pinky
+    101278: RF_Toe_Roll_grp
+    101280: RF_Wrist_FK_C
+    101282: RF_Wrist_FK_C_grp
+    101284: RF_Wrist_FK_C_grp_01
+    101286: ROOT
+    101288: skeleton
+    101290: Spine
+    101292: SPINE1
+    101294: SPINE2
+    101296: SPINE3
+    101298: SPINE4
+    101300: SPINE5
+    101302: SPINE6
+    101304: SPINE7
+    101306: Spine_Back_C
+    101308: Spine_Back_C_grp
+    101310: Spine_Btm_clusterHandle
+    101312: Spine_Btm_clusterHandle_grp
+    101314: Spine_C1
+    101316: Spine_C2
+    101318: Spine_C_grp1
+    101320: Spine_C_grp2
+    101322: Spine_Front_C
+    101324: Spine_Front_C_grp
+    101326: Spine_IK_C_grp
+    101328: Spine_Mid_C
+    101330: Spine_Mid_C_grp
+    101332: Spine_Mid_clusterHandle
+    101334: Spine_Mid_clusterHandle_grp
+    101336: Spine_Tip_cluster1Handle_grp
+    101338: Spine_Tip_clusterHandle
+    101340: squash1Handle
+    101342: squash2Handle
+    101344: squash3Handle
+    101346: squash4Handle
+    101348: T1
+    101350: T2
+    101352: T3
+    101354: TAIL1
+    101356: TAIL10
+    101358: TAIL11
+    101360: TAIL12
+    101362: TAIL13
+    101364: TAIL14
+    101366: TAIL15
+    101368: TAIL16
+    101370: TAIL17
+    101372: TAIL18
+    101374: TAIL19
+    101376: TAIL2
+    101378: TAIL20
+    101380: TAIL21
+    101382: TAIL22
+    101384: TAIL23
+    101386: TAIL24
+    101388: TAIL25
+    101390: TAIL26
+    101392: TAIL3
+    101394: TAIL4
+    101396: TAIL5
+    101398: TAIL6
+    101400: TAIL7
+    101402: TAIL8
+    101404: TAIL9
+    101406: Tail_C1
+    101408: Tail_C1_grp
+    101410: Tail_C2
+    101412: Tail_C2_grp
+    101414: Tail_C3
+    101416: Tail_C3_grp
+    101418: Tail_C4
+    101420: Tail_C4_grp
+    101422: Tail_C5
+    101424: Tail_C5_grp
+    101426: Tail_C6
+    101428: Tail_C6_grp
+    101430: Tail_FK_C1
+    101432: Tail_FK_C2
+    101434: Tail_FK_C3
+    101436: Tail_FK_C4
+    101438: Tail_FK_C5
+    101440: Tail_FK_C6
+    101442: TAIL_Root
+    101444: Tail_root_C
+    101446: Tail_root_C_grp
+    101448: Tr_C1
+    101450: Tr_C2
+    101452: Tr_C3
+    101454: Tr_C4
+    101456: Tr_C5
+    101458: Tr_C6
+    101460: Tr_C7
+    101462: Tr_C8
+    101464: Tr_C9
+    101466: TRUNK
+    101468: TRUNK1
+    101470: TRUNK10
+    101472: TRUNK11
+    101474: TRUNK12
+    101476: TRUNK13
+    101478: TRUNK14
+    101480: TRUNK15
+    101482: TRUNK16
+    101484: TRUNK17
+    101486: TRUNK18
+    101488: TRUNK19
+    101490: TRUNK2
+    101492: TRUNK20
+    101494: TRUNK21
+    101496: TRUNK22
+    101498: TRUNK23
+    101500: TRUNK24
+    101502: TRUNK25
+    101504: TRUNK26
+    101506: TRUNK27
+    101508: TRUNK28
+    101510: TRUNK29
+    101512: TRUNK3
+    101514: TRUNK30
+    101516: TRUNK31
+    101518: TRUNK32
+    101520: TRUNK4
+    101522: TRUNK5
+    101524: TRUNK6
+    101526: TRUNK7
+    101528: TRUNK8
+    101530: TRUNK9
+    101532: Trunk_Arm_IK_C
+    101534: Trunk_Arm_IK_C_grp
+    101536: Trunk_C1
+    101538: Trunk_C2
+    101540: Trunk_C3
+    101542: Trunk_C4
+    101544: Trunk_C5
+    101546: Trunk_C6
+    101548: Trunk_C7
+    101550: Trunk_C8
+    101552: Trunk_C9
+    101554: Trunk_cluster1
+    101556: Trunk_cluster2
+    101558: Trunk_cluster3
+    101560: Trunk_cluster4
+    101562: Trunk_cluster5
+    101564: Trunk_cluster6
+    101566: Trunk_cluster7
+    101568: Trunk_cluster8
+    101570: Trunk_cluster9
+    101572: Trunk_FK_C1
+    101574: Trunk_FK_C1_grp
+    101576: Trunk_FK_C1_Vis_grp
+    101578: Trunk_FK_C2
+    101580: Trunk_FK_C2_grp
+    101582: Trunk_FK_C3
+    101584: Trunk_FK_C3_grp
+    101586: Trunk_FK_C4
+    101588: Trunk_FK_C4_grp
+    101590: Trunk_FK_C5
+    101592: Trunk_FK_C5_grp
+    101594: Trunk_FK_C6
+    101596: Trunk_FK_C6_grp
+    101598: Trunk_FK_C7
+    101600: Trunk_FK_C7_grp
+    101602: Trunk_FK_C8
+    101604: Trunk_FK_C8_grp
+    101606: Trunk_FK_C9
+    101608: Trunk_FK_C9_grp
+    101610: Trunk_grp
+    101612: Trunk_Pol_V_C
+    101614: Trunk_Pol_V_C_grp
+    101616: TrunkRoot_C
+    101618: TrunkRoot_C_grp
+    101620: Tusk_grp
+    101622: X_C_grp
+    101624: X_C_grp_Vis_grp
+    101626: XIK_Ctrl_jnt_1
+    101628: XIK_Ctrl_jnt_1_grp
+    101630: XIK_Ctrl_jnt_2
+    101632: XIK_Ctrl_jnt_3
+    101634: XIK_Ctrl_jnt_4
+    101636: XIK_Ctrl_jnt_5
+    101638: XTrunk_ikHandle
+    400000: Belly_C
+    400002: Belly_C_grp
+    400004: CHEST1
+    400006: CHEST2
+    400008: CHEST3
+    400010: cluster10Handle
+    400012: cluster11Handle
+    400014: cluster39Handle
+    400016: cluster40Handle
+    400018: cluster4Handle
+    400020: cluster5Handle
+    400022: cluster6Handle
+    400024: cluster7Handle
+    400026: cluster8Handle
+    400028: cluster9Handle
+    400030: COG_C
+    400032: COG_C_grp
+    400034: CTRLS
+    400036: Ex_IK_C1
+    400038: Ex_IK_C1_grp
+    400040: Ex_IK_C1_grp_grp
+    400042: Ex_IK_C2
+    400044: Ex_IK_C2_grp
+    400046: Ex_IK_C3
+    400048: Ex_IK_C3_grp
+    400050: Ex_IK_C3_grp_01
+    400052: Ex_IK_C4
+    400054: Ex_IK_C4_grp
+    400056: Ex_IK_C5
+    400058: Ex_IK_C5_grp
+    400060: Ex_IK_C5_grp_01
+    400062: Ex_IK_C6
+    400064: Ex_IK_C6_grp
+    400066: Ex_IK_C7
+    400068: Ex_IK_C7_grp
+    400070: Ex_IK_C7_grp_01
+    400072: Ex_IK_C8
+    400074: Ex_IK_C8_grp
+    400076: Ex_IK_C8_grp 1
+    400078: Ex_IK_C9
+    400080: Ex_IK_C9_grp
+    400082: Ex_IK_C9_grp 1
+    400084: Eyes_C
+    400086: Eyes_C_grp
+    400088: group1
+    400090: group10
+    400092: group11
+    400094: group12
+    400096: group13
+    400098: group14
+    400100: group15
+    400102: group16
+    400104: group17
+    400106: group18
+    400108: group2
+    400110: group20
+    400112: group21
+    400114: group22
+    400116: group27
+    400118: group28
+    400120: group3
+    400122: group4
+    400124: group5
+    400126: group6
+    400128: group7
+    400130: group8
+    400132: group9
+    400134: //RootNode
+    400136: HEAD1
+    400138: HEAD2
+    400140: Head_C
+    400142: Head_C_grp
+    400144: Head_grp
+    400146: HIP1
+    400148: Hip_FK_C
+    400150: Hip_FK_C_grp
+    400152: joint197
+    400154: joint197 1
+    400156: L_Ankle
+    400158: L_Ankle_ikHandle
+    400160: L_BALL
+    400162: L_Ball_ikHandle
+    400164: L_CLAVICLE
+    400166: L_CLAVICLE_tip
+    400168: L_Collar_C
+    400170: L_Collar_C_Auto_grp
+    400172: L_Collar_C_grp
+    400174: L_Collar_Up_C
+    400176: L_Collar_Up_C_grp
+    400178: L_Ear
+    400180: L_Ear_A_C1
+    400182: L_Ear_A_C1_grp
+    400184: L_Ear_A_C1_grp_01
+    400186: L_Ear_A_C1_grp_02
+    400188: L_Ear_A_C2
+    400190: L_Ear_A_C2_grp
+    400192: L_Ear_A_C2_grp_01
+    400194: L_Ear_A_C2_grp_02
+    400196: L_Ear_A_C3
+    400198: L_Ear_A_C3_grp
+    400200: L_Ear_A_C3_grp_01
+    400202: L_Ear_A_C3_grp_02
+    400204: L_Ear_A_C4
+    400206: L_Ear_A_C4_grp
+    400208: L_Ear_A_C4_grp_01
+    400210: L_Ear_A_C4_grp_02
+    400212: L_Ear_B_C1
+    400214: L_Ear_B_C1_grp
+    400216: L_Ear_B_C1_grp_01
+    400218: L_Ear_B_C1_grp_02
+    400220: L_Ear_B_C2
+    400222: L_Ear_B_C2_grp
+    400224: L_Ear_B_C2_grp_01
+    400226: L_Ear_B_C2_grp_02
+    400228: L_Ear_B_C3
+    400230: L_Ear_B_C3_grp
+    400232: L_Ear_B_C3_grp_01
+    400234: L_Ear_B_C3_grp_02
+    400236: L_Ear_C
+    400238: L_Ear_C_C1
+    400240: L_Ear_C_C1_grp
+    400242: L_Ear_C_C1_grp_01
+    400244: L_Ear_C_C1_grp_02
+    400246: L_Ear_C_C2
+    400248: L_Ear_C_C2_grp
+    400250: L_Ear_C_C2_grp_01
+    400252: L_Ear_C_C2_grp_02
+    400254: L_Ear_C_C3
+    400256: L_Ear_C_C3_grp
+    400258: L_Ear_C_C3_grp_01
+    400260: L_Ear_C_C3_grp_02
+    400262: L_Ear_C_grp
+    400264: L_Ear_ctrl_grp
+    400266: L_Ear_ctrl_grp_01
+    400268: L_Ear_ctrl_inner__grp
+    400270: L_Ear_D_C1
+    400272: L_Ear_D_C1_grp
+    400274: L_Ear_D_C1_grp_01
+    400276: L_Ear_D_C1_grp_02
+    400278: L_Ear_D_C2
+    400280: L_Ear_D_C2_grp
+    400282: L_Ear_D_C2_grp_01
+    400284: L_Ear_D_C2_grp_02
+    400286: L_Ear_E_C1
+    400288: L_Ear_E_C1_grp
+    400290: L_Ear_E_C1_grp_01
+    400292: L_Ear_Grp
+    400294: L_ELBOW
+    400296: L_ELBOW1
+    400298: L_Eye_C
+    400300: L_F_Auto_ikHandle
+    400302: L_HIP
+    400304: L_Hip_C
+    400306: L_Hip_C_grp
+    400308: L_HIP_root
+    400310: L_Hip_Up_C
+    400312: L_Hip_Up_C_grp
+    400314: L_KNEE
+    400316: L_KNEE1
+    400318: L_Nostril_C
+    400320: L_PAW
+    400322: L_PAW1
+    400324: L_Paw_1_ikHandle
+    400326: L_Paw_2_ikHandle
+    400328: L_Paw_2_ikHandle_grp
+    400330: L_Paw_ikHandle
+    400332: L_PAWEND
+    400334: L_SHOLDER
+    400336: L_SHOLDER1
+    400338: L_THIGH
+    400340: L_THIGH1
+    400342: L_TOE
+    400344: L_Toe_ikHandle
+    400346: L_Toe_ikHandle_grp
+    400348: L_TUSK1
+    400350: L_TUSK10
+    400352: L_TUSK11
+    400354: L_TUSK12
+    400356: L_TUSK13
+    400358: L_TUSK2
+    400360: L_TUSK3
+    400362: L_TUSK4
+    400364: L_TUSK5
+    400366: L_TUSK6
+    400368: L_TUSK7
+    400370: L_TUSK8
+    400372: L_TUSK9
+    400374: L_Tusk_C
+    400376: L_Tusk_C_grp
+    400378: L_WRIST
+    400380: L_Wrist_ikHandle
+    400382: L_Wrist_ikHandle_grp
+    400384: LB_Ankle_FK_C
+    400386: LB_Ankle_FK_C_grp
+    400388: LB_Ankle_FK_C_grp_01
+    400390: LB_Ankle_IK_grp
+    400392: LB_Ball_FK_C
+    400394: LB_Ball_FK_C_grp
+    400396: LB_Ball_FK_C_grp_01
+    400398: LB_Ball_IK_grp1
+    400400: LB_Ball_IK_grp2
+    400402: LB_Ball_Lift_grp1
+    400404: LB_Ball_Lift_grp2
+    400406: LB_Ball_Roll_grp
+    400408: LB_ctrl_grp
+    400410: LB_curve_cluster21Handle1_Btm
+    400412: LB_Extra
+    400414: LB_Fing_C_grp
+    400416: LB_Finger_C
+    400418: LB_FK_Ctrl_grp
+    400420: LB_Heel_Roll_grp
+    400422: LB_IK_Ctrl_grp
+    400424: LB_IK_FK_Stretch
+    400426: LB_IK_FK_Stretch_grp
+    400428: LB_IK_grp
+    400430: LB_Ind_C
+    400432: LB_Ind_C_grp
+    400434: LB_Ind_C_grp_01
+    400436: LB_INDEX1
+    400438: LB_INDEX2
+    400440: LB_Inverse_1
+    400442: LB_Inverse_2
+    400444: LB_Inverse_3
+    400446: LB_Inverse_4
+    400448: LB_Inverse_5
+    400450: LB_Inverse_6
+    400452: LB_Inverse_7
+    400454: LB_Inverse_8
+    400456: LB_Knee_FK_C
+    400458: LB_Knee_FK_C_grp
+    400460: LB_Knee_FK_C_grp_01
+    400462: LB_Leg_IK_C
+    400464: LB_Leg_IK_C_grp
+    400466: LB_MID1
+    400468: LB_MID2
+    400470: LB_Mid_C
+    400472: LB_Mid_C_grp
+    400474: LB_Mid_C_grp_01
+    400476: LB_PINKY1
+    400478: LB_PINKY2
+    400480: LB_Pinky_C
+    400482: LB_Pinky_C_grp
+    400484: LB_Pinky_C_grp1
+    400486: LB_Polv_C
+    400488: LB_Polv_C_grp
+    400490: LB_Thigh_FK_C
+    400492: LB_Thigh_FK_C_grp
+    400494: LB_Thigh_FK_C_grp_01
+    400496: LB_Toe_C_grp
+    400498: LB_Toe_IK_grp
+    400500: LB_Toe_IK_grp1
+    400502: LB_Toe_Out
+    400504: LB_Toe_Pinky
+    400506: LB_Toe_Roll_grp
+    400508: LE_A_1
+    400510: LE_A_2
+    400512: LE_A_3
+    400514: LE_A_4
+    400516: LE_A_5
+    400518: LE_A_6
+    400520: LE_A_7
+    400522: LE_B_1
+    400524: LE_B_2
+    400526: LE_B_3
+    400528: LE_B_4
+    400530: LE_B_5
+    400532: LE_B_6
+    400534: LE_B_7
+    400536: LE_C_1
+    400538: LE_C_2
+    400540: LE_C_3
+    400542: LE_C_4
+    400544: LE_C_5
+    400546: LE_C_6
+    400548: LE_C_7
+    400550: LE_D_1
+    400552: LE_D_2
+    400554: LE_D_3
+    400556: LE_D_4
+    400558: LE_D_5
+    400560: LE_D_6
+    400562: LE_E_1
+    400564: LE_E_2
+    400566: LE_E_3
+    400568: LE_E_4
+    400570: Leg_grp
+    400572: LF_Ankle_IK_grp
+    400574: LF_Ball_IK_grp1
+    400576: LF_Ball_IK_grp2
+    400578: LF_Ball_Lift_grp1
+    400580: LF_Ball_Lift_grp2
+    400582: LF_Ball_Roll_grp
+    400584: LF_ctrl_grp
+    400586: LF_curve_cluster21Handle_Btm
+    400588: LF_Elbow_FK_C
+    400590: LF_Elbow_FK_C_grp
+    400592: LF_Elbow_FK_C_grp_01
+    400594: LF_Extra
+    400596: LF_Fing_C_grp
+    400598: LF_Finger_C
+    400600: LF_FK_Ctrl_grp
+    400602: LF_Heel_Roll_grp
+    400604: LF_IK_Ctrl_grp
+    400606: LF_IK_FK_Stretch
+    400608: LF_IK_FK_Stretch_grp
+    400610: LF_IK_grp
+    400612: LF_Ind_C
+    400614: LF_Ind_C_grp
+    400616: LF_Ind_C_grp_01
+    400618: LF_INDEX1
+    400620: LF_INDEX2
+    400622: LF_Inverse_1
+    400624: LF_Inverse_10
+    400626: LF_Inverse_1_grp
+    400628: LF_Inverse_2
+    400630: LF_Inverse_3
+    400632: LF_Inverse_4
+    400634: LF_Inverse_5
+    400636: LF_Inverse_6
+    400638: LF_Inverse_7
+    400640: LF_Inverse_8
+    400642: LF_Inverse_8a
+    400644: LF_Inverse_9
+    400646: LF_Leg_IK_C
+    400648: LF_Leg_IK_C_grp
+    400650: LF_MID1
+    400652: LF_MID2
+    400654: LF_Mid_C
+    400656: LF_Mid_C_grp
+    400658: LF_Mid_C_grp_01
+    400660: LF_Paw_FK_C
+    400662: LF_Paw_FK_C1
+    400664: LF_Paw_FK_C1_grp
+    400666: LF_Paw_FK_C1_grp_01
+    400668: LF_Paw_FK_C_grp
+    400670: LF_Paw_FK_C_grp_01
+    400672: LF_PINKY1
+    400674: LF_PINKY2
+    400676: LF_Pinky_C
+    400678: LF_Pinky_C_grp
+    400680: LF_Pinky_C_grp_01
+    400682: LF_Polv_C
+    400684: LF_Polv_C_grp
+    400686: LF_Shoulder_FK_C
+    400688: LF_Shoulder_FK_C_grp
+    400690: LF_Shoulder_FK_C_grp_01
+    400692: LF_Toe_C_grp
+    400694: LF_Toe_IK_grp
+    400696: LF_Toe_IK_grp1
+    400698: LF_Toe_Out
+    400700: LF_Toe_Pinky
+    400702: LF_Toe_Roll_grp
+    400704: LF_Wrist_FK_C
+    400706: LF_Wrist_FK_C_grp
+    400708: LF_Wrist_FK_C_grp_01
+    400710: Lower_Jaw1
+    400712: Lower_Jaw2
+    400714: Lower_Jaw3
+    400716: Lower_Jaw4
+    400718: Lower_Jaw5
+    400720: Master_C
+    400722: Mid_Nostril_C
+    400724: NECK
+    400726: Neck_C1
+    400728: Neck_C_grp
+    400730: Nostril_C_grp
+    400732: pasted__polySurface38
+    400734: Placement_C
+    400736: R_Ankle
+    400738: R_Ankle_ikHandle
+    400740: R_BALL
+    400742: R_Ball_ikHandle
+    400744: R_CLAVICLE
+    400746: R_CLAVICLE_tip
+    400748: R_Collar_C
+    400750: R_Collar_C_Auto_grp
+    400752: R_Collar_C_grp
+    400754: R_Collar_Up_C
+    400756: R_Collar_Up_C_grp
+    400758: R_Ear
+    400760: R_Ear_A_C1
+    400762: R_Ear_A_C1_grp
+    400764: R_Ear_A_C1_grp_01
+    400766: R_Ear_A_C1_grp_02
+    400768: R_Ear_A_C2
+    400770: R_Ear_A_C2_grp
+    400772: R_Ear_A_C2_grp_01
+    400774: R_Ear_A_C2_grp_02
+    400776: R_Ear_A_C3
+    400778: R_Ear_A_C3_grp
+    400780: R_Ear_A_C3_grp_01
+    400782: R_Ear_A_C3_grp_02
+    400784: R_Ear_A_C4
+    400786: R_Ear_A_C4_grp
+    400788: R_Ear_A_C4_grp_01
+    400790: R_Ear_A_C4_grp_02
+    400792: R_Ear_B_C1
+    400794: R_Ear_B_C1_grp
+    400796: R_Ear_B_C1_grp_01
+    400798: R_Ear_B_C1_grp_02
+    400800: R_Ear_B_C2
+    400802: R_Ear_B_C2_grp
+    400804: R_Ear_B_C2_grp_01
+    400806: R_Ear_B_C2_grp_02
+    400808: R_Ear_B_C3
+    400810: R_Ear_B_C3_grp
+    400812: R_Ear_B_C3_grp_01
+    400814: R_Ear_B_C3_grp_02
+    400816: R_Ear_C
+    400818: R_Ear_C_C1
+    400820: R_Ear_C_C1_grp
+    400822: R_Ear_C_C1_grp_01
+    400824: R_Ear_C_C1_grp_02
+    400826: R_Ear_C_C2
+    400828: R_Ear_C_C2_grp
+    400830: R_Ear_C_C2_grp_01
+    400832: R_Ear_C_C2_grp_02
+    400834: R_Ear_C_C3
+    400836: R_Ear_C_C3_grp
+    400838: R_Ear_C_C3_grp_01
+    400840: R_Ear_C_C3_grp_02
+    400842: R_Ear_C_grp
+    400844: R_Ear_ctrl_grp
+    400846: R_Ear_ctrl_grp_01
+    400848: R_Ear_D_C1
+    400850: R_Ear_D_C1_grp
+    400852: R_Ear_D_C1_grp_01
+    400854: R_Ear_D_C1_grp_02
+    400856: R_Ear_D_C2
+    400858: R_Ear_D_C2_grp
+    400860: R_Ear_D_C2_grp_01
+    400862: R_Ear_D_C2_grp_02
+    400864: R_Ear_E_C1
+    400866: R_Ear_E_C1_grp
+    400868: R_Ear_E_C1_grp_01
+    400870: R_Eat_grp
+    400872: R_ELBOW
+    400874: R_ELBOW1
+    400876: R_Eye_C
+    400878: R_F_Auto_ikHandle
+    400880: R_HIP
+    400882: R_Hip_C
+    400884: R_Hip_C_grp
+    400886: R_HIP_root
+    400888: R_Hip_Up_C
+    400890: R_Hip_Up_C_grp
+    400892: R_KNEE
+    400894: R_KNEE1
+    400896: R_Nostril_C
+    400898: R_PAW
+    400900: R_PAW1
+    400902: R_Paw_1_ikHandle
+    400904: R_Paw_2_ikHandle
+    400906: R_Paw_2_ikHandle_grp
+    400908: R_Paw_ikHandle
+    400910: R_PAWEND
+    400912: R_SHOLDER
+    400914: R_SHOLDER1
+    400916: R_THIGH
+    400918: R_THIGH1
+    400920: R_TOE
+    400922: R_Toe_ikHandle
+    400924: R_Toe_ikHandle_grp
+    400926: R_TUSK1
+    400928: R_TUSK10
+    400930: R_TUSK11
+    400932: R_TUSK12
+    400934: R_TUSK13
+    400936: R_TUSK2
+    400938: R_TUSK3
+    400940: R_TUSK4
+    400942: R_TUSK5
+    400944: R_TUSK6
+    400946: R_TUSK7
+    400948: R_TUSK8
+    400950: R_TUSK9
+    400952: R_Tusk_C
+    400954: R_Tusk_C_grp
+    400956: R_WRIST
+    400958: R_Wrist_ikHandle
+    400960: R_Wrist_ikHandle_grp
+    400962: RB_Ankle_FK_C
+    400964: RB_Ankle_FK_C_grp
+    400966: RB_Ankle_FK_C_grp_01
+    400968: RB_Ankle_IK_grp
+    400970: RB_Ball_FK_C
+    400972: RB_Ball_FK_C_grp
+    400974: RB_Ball_FK_C_grp_01
+    400976: RB_Ball_IK_grp1
+    400978: RB_Ball_IK_grp2
+    400980: RB_Ball_Lift_grp1
+    400982: RB_Ball_Lift_grp2
+    400984: RB_Ball_Roll_grp
+    400986: RB_ctrl_grp
+    400988: RB_curve_cluster21Handle_Btm
+    400990: RB_Extra
+    400992: RB_Fing_C_grp
+    400994: RB_Finger_C
+    400996: RB_FK_Ctrl_grp
+    400998: RB_Heel_Roll_grp
+    401000: RB_IK_Ctrl_grp
+    401002: RB_IK_FK_Stretch
+    401004: RB_IK_FK_Stretch_grp
+    401006: RB_IK_grp
+    401008: RB_Ind_C
+    401010: RB_Ind_C_grp
+    401012: RB_Ind_C_grp_01
+    401014: RB_INDEX1
+    401016: RB_INDEX2
+    401018: RB_Inverse_1
+    401020: RB_Inverse_2
+    401022: RB_Inverse_3
+    401024: RB_Inverse_4
+    401026: RB_Inverse_5
+    401028: RB_Inverse_6
+    401030: RB_Inverse_7
+    401032: RB_Inverse_8
+    401034: RB_Knee_FK_C
+    401036: RB_Knee_FK_C_grp
+    401038: RB_Knee_FK_C_grp_01
+    401040: RB_Leg_IK_C
+    401042: RB_Leg_IK_C_grp
+    401044: RB_MID1
+    401046: RB_MID2
+    401048: RB_Mid_C
+    401050: RB_Mid_C_grp
+    401052: RB_Mid_C_grp_01
+    401054: RB_PINKY1
+    401056: RB_PINKY2
+    401058: RB_Pinky_C
+    401060: RB_Pinky_C_grp
+    401062: RB_Pinky_C_grp1
+    401064: RB_Polv_C
+    401066: RB_Polv_C_grp
+    401068: RB_Thigh_FK_C
+    401070: RB_Thigh_FK_C_grp
+    401072: RB_Thigh_FK_C_grp_01
+    401074: RB_Toe_C_grp
+    401076: RB_Toe_IK_grp
+    401078: RB_Toe_IK_grp1
+    401080: RB_Toe_Out
+    401082: RB_Toe_Pinky
+    401084: RB_Toe_Roll_grp
+    401086: RE_A_1
+    401088: RE_A_2
+    401090: RE_A_3
+    401092: RE_A_4
+    401094: RE_A_5
+    401096: RE_A_6
+    401098: RE_A_7
+    401100: RE_B_1
+    401102: RE_B_2
+    401104: RE_B_3
+    401106: RE_B_4
+    401108: RE_B_5
+    401110: RE_B_6
+    401112: RE_B_7
+    401114: RE_C_1
+    401116: RE_C_2
+    401118: RE_C_3
+    401120: RE_C_4
+    401122: RE_C_5
+    401124: RE_C_6
+    401126: RE_C_7
+    401128: RE_D_1
+    401130: RE_D_2
+    401132: RE_D_3
+    401134: RE_D_4
+    401136: RE_D_5
+    401138: RE_D_6
+    401140: RE_E_1
+    401142: RE_E_2
+    401144: RE_E_3
+    401146: RE_E_4
+    401148: RF_Ankle_IK_grp
+    401150: RF_Ball_IK_grp1
+    401152: RF_Ball_IK_grp2
+    401154: RF_Ball_Lift_grp1
+    401156: RF_Ball_Lift_grp2
+    401158: RF_Ball_Roll_grp
+    401160: RF_ctrl_grp
+    401162: RF_curve_cluster21Handle_Btm
+    401164: RF_Elbow_FK_C
+    401166: RF_Elbow_FK_C_grp
+    401168: RF_Elbow_FK_C_grp_01
+    401170: RF_Extra
+    401172: RF_Fing_C_grp
+    401174: RF_Finger_C
+    401176: RF_FK_Ctrl_grp1
+    401178: RF_Heel_Roll_grp
+    401180: RF_IK_Ctrl_grp
+    401182: RF_IK_FK_Stretch
+    401184: RF_IK_FK_Stretch_grp
+    401186: RF_IK_grp
+    401188: RF_Ind_C
+    401190: RF_Ind_C_grp
+    401192: RF_Ind_C_grp_01
+    401194: RF_INDEX1
+    401196: RF_INDEX2
+    401198: RF_Inverse_1
+    401200: RF_Inverse_10
+    401202: RF_Inverse_1_grp
+    401204: RF_Inverse_2
+    401206: RF_Inverse_3
+    401208: RF_Inverse_4
+    401210: RF_Inverse_5
+    401212: RF_Inverse_6
+    401214: RF_Inverse_7
+    401216: RF_Inverse_8
+    401218: RF_Inverse_8a
+    401220: RF_Inverse_9
+    401222: RF_Leg_IK_C
+    401224: RF_Leg_IK_C_grp
+    401226: RF_MID1
+    401228: RF_MID2
+    401230: RF_Mid_C
+    401232: RF_Mid_C_grp
+    401234: RF_Mid_C_grp_01
+    401236: RF_Paw_FK_C
+    401238: RF_Paw_FK_C1
+    401240: RF_Paw_FK_C1_grp
+    401242: RF_Paw_FK_C1_grp_01
+    401244: RF_Paw_FK_C_grp
+    401246: RF_Paw_FK_C_grp_01
+    401248: RF_PINKY1
+    401250: RF_PINKY2
+    401252: RF_Pinky_C
+    401254: RF_Pinky_C_grp
+    401256: RF_Pinky_C_grp01
+    401258: RF_Polv_C
+    401260: RF_Polv_C_grp
+    401262: RF_Shoulder_FK_C
+    401264: RF_Shoulder_FK_C_grp
+    401266: RF_Shoulder_FK_C_grp_01
+    401268: RF_Toe_C_grp
+    401270: RF_Toe_IK_grp
+    401272: RF_Toe_IK_grp1
+    401274: RF_Toe_Out
+    401276: RF_Toe_Pinky
+    401278: RF_Toe_Roll_grp
+    401280: RF_Wrist_FK_C
+    401282: RF_Wrist_FK_C_grp
+    401284: RF_Wrist_FK_C_grp_01
+    401286: ROOT
+    401288: skeleton
+    401290: Spine
+    401292: SPINE1
+    401294: SPINE2
+    401296: SPINE3
+    401298: SPINE4
+    401300: SPINE5
+    401302: SPINE6
+    401304: SPINE7
+    401306: Spine_Back_C
+    401308: Spine_Back_C_grp
+    401310: Spine_Btm_clusterHandle
+    401312: Spine_Btm_clusterHandle_grp
+    401314: Spine_C1
+    401316: Spine_C2
+    401318: Spine_C_grp1
+    401320: Spine_C_grp2
+    401322: Spine_Front_C
+    401324: Spine_Front_C_grp
+    401326: Spine_IK_C_grp
+    401328: Spine_Mid_C
+    401330: Spine_Mid_C_grp
+    401332: Spine_Mid_clusterHandle
+    401334: Spine_Mid_clusterHandle_grp
+    401336: Spine_Tip_cluster1Handle_grp
+    401338: Spine_Tip_clusterHandle
+    401340: squash1Handle
+    401342: squash2Handle
+    401344: squash3Handle
+    401346: squash4Handle
+    401348: T1
+    401350: T2
+    401352: T3
+    401354: TAIL1
+    401356: TAIL10
+    401358: TAIL11
+    401360: TAIL12
+    401362: TAIL13
+    401364: TAIL14
+    401366: TAIL15
+    401368: TAIL16
+    401370: TAIL17
+    401372: TAIL18
+    401374: TAIL19
+    401376: TAIL2
+    401378: TAIL20
+    401380: TAIL21
+    401382: TAIL22
+    401384: TAIL23
+    401386: TAIL24
+    401388: TAIL25
+    401390: TAIL26
+    401392: TAIL3
+    401394: TAIL4
+    401396: TAIL5
+    401398: TAIL6
+    401400: TAIL7
+    401402: TAIL8
+    401404: TAIL9
+    401406: Tail_C1
+    401408: Tail_C1_grp
+    401410: Tail_C2
+    401412: Tail_C2_grp
+    401414: Tail_C3
+    401416: Tail_C3_grp
+    401418: Tail_C4
+    401420: Tail_C4_grp
+    401422: Tail_C5
+    401424: Tail_C5_grp
+    401426: Tail_C6
+    401428: Tail_C6_grp
+    401430: Tail_FK_C1
+    401432: Tail_FK_C2
+    401434: Tail_FK_C3
+    401436: Tail_FK_C4
+    401438: Tail_FK_C5
+    401440: Tail_FK_C6
+    401442: TAIL_Root
+    401444: Tail_root_C
+    401446: Tail_root_C_grp
+    401448: Tr_C1
+    401450: Tr_C2
+    401452: Tr_C3
+    401454: Tr_C4
+    401456: Tr_C5
+    401458: Tr_C6
+    401460: Tr_C7
+    401462: Tr_C8
+    401464: Tr_C9
+    401466: TRUNK
+    401468: TRUNK1
+    401470: TRUNK10
+    401472: TRUNK11
+    401474: TRUNK12
+    401476: TRUNK13
+    401478: TRUNK14
+    401480: TRUNK15
+    401482: TRUNK16
+    401484: TRUNK17
+    401486: TRUNK18
+    401488: TRUNK19
+    401490: TRUNK2
+    401492: TRUNK20
+    401494: TRUNK21
+    401496: TRUNK22
+    401498: TRUNK23
+    401500: TRUNK24
+    401502: TRUNK25
+    401504: TRUNK26
+    401506: TRUNK27
+    401508: TRUNK28
+    401510: TRUNK29
+    401512: TRUNK3
+    401514: TRUNK30
+    401516: TRUNK31
+    401518: TRUNK32
+    401520: TRUNK4
+    401522: TRUNK5
+    401524: TRUNK6
+    401526: TRUNK7
+    401528: TRUNK8
+    401530: TRUNK9
+    401532: Trunk_Arm_IK_C
+    401534: Trunk_Arm_IK_C_grp
+    401536: Trunk_C1
+    401538: Trunk_C2
+    401540: Trunk_C3
+    401542: Trunk_C4
+    401544: Trunk_C5
+    401546: Trunk_C6
+    401548: Trunk_C7
+    401550: Trunk_C8
+    401552: Trunk_C9
+    401554: Trunk_cluster1
+    401556: Trunk_cluster2
+    401558: Trunk_cluster3
+    401560: Trunk_cluster4
+    401562: Trunk_cluster5
+    401564: Trunk_cluster6
+    401566: Trunk_cluster7
+    401568: Trunk_cluster8
+    401570: Trunk_cluster9
+    401572: Trunk_FK_C1
+    401574: Trunk_FK_C1_grp
+    401576: Trunk_FK_C1_Vis_grp
+    401578: Trunk_FK_C2
+    401580: Trunk_FK_C2_grp
+    401582: Trunk_FK_C3
+    401584: Trunk_FK_C3_grp
+    401586: Trunk_FK_C4
+    401588: Trunk_FK_C4_grp
+    401590: Trunk_FK_C5
+    401592: Trunk_FK_C5_grp
+    401594: Trunk_FK_C6
+    401596: Trunk_FK_C6_grp
+    401598: Trunk_FK_C7
+    401600: Trunk_FK_C7_grp
+    401602: Trunk_FK_C8
+    401604: Trunk_FK_C8_grp
+    401606: Trunk_FK_C9
+    401608: Trunk_FK_C9_grp
+    401610: Trunk_grp
+    401612: Trunk_Pol_V_C
+    401614: Trunk_Pol_V_C_grp
+    401616: TrunkRoot_C
+    401618: TrunkRoot_C_grp
+    401620: Tusk_grp
+    401622: X_C_grp
+    401624: X_C_grp_Vis_grp
+    401626: XIK_Ctrl_jnt_1
+    401628: XIK_Ctrl_jnt_1_grp
+    401630: XIK_Ctrl_jnt_2
+    401632: XIK_Ctrl_jnt_3
+    401634: XIK_Ctrl_jnt_4
+    401636: XIK_Ctrl_jnt_5
+    401638: XTrunk_ikHandle
+    4300000: pasted__polySurface38
+    7400000: Walk
+    9500000: //RootNode
+    13700000: pasted__polySurface38
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pasted__polySurface38
+        weight: 1
+      - path: Placement_C
+        weight: 1
+      - path: Placement_C/Master_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Eyes_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Eyes_C_grp/Eyes_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Eyes_C_grp/Eyes_C/L_Eye_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Eyes_C_grp/Eyes_C/R_Eye_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Head_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Head_C_grp/Head_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_C_grp/L_Ear_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_A_C1_grp_02
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_A_C1_grp_02/L_Ear_A_C1_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_A_C1_grp_02/L_Ear_A_C1_grp_01/L_Ear_A_C1_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_A_C1_grp_02/L_Ear_A_C1_grp_01/L_Ear_A_C1_grp/L_Ear_A_C1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_A_C2_grp_02
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_A_C2_grp_02/L_Ear_A_C2_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_A_C2_grp_02/L_Ear_A_C2_grp_01/L_Ear_A_C2_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_A_C2_grp_02/L_Ear_A_C2_grp_01/L_Ear_A_C2_grp/L_Ear_A_C2
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_A_C3_grp_02
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_A_C3_grp_02/L_Ear_A_C3_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_A_C3_grp_02/L_Ear_A_C3_grp_01/L_Ear_A_C3_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_A_C3_grp_02/L_Ear_A_C3_grp_01/L_Ear_A_C3_grp/L_Ear_A_C3
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_A_C4_grp_02
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_A_C4_grp_02/L_Ear_A_C4_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_A_C4_grp_02/L_Ear_A_C4_grp_01/L_Ear_A_C4_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_A_C4_grp_02/L_Ear_A_C4_grp_01/L_Ear_A_C4_grp/L_Ear_A_C4
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_B_C1_grp_02
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_B_C1_grp_02/L_Ear_B_C1_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_B_C1_grp_02/L_Ear_B_C1_grp_01/L_Ear_B_C1_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_B_C1_grp_02/L_Ear_B_C1_grp_01/L_Ear_B_C1_grp/L_Ear_B_C1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_B_C2_grp_02
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_B_C2_grp_02/L_Ear_B_C2_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_B_C2_grp_02/L_Ear_B_C2_grp_01/L_Ear_B_C2_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_B_C2_grp_02/L_Ear_B_C2_grp_01/L_Ear_B_C2_grp/L_Ear_B_C2
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_B_C3_grp_02
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_B_C3_grp_02/L_Ear_B_C3_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_B_C3_grp_02/L_Ear_B_C3_grp_01/L_Ear_B_C3_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_B_C3_grp_02/L_Ear_B_C3_grp_01/L_Ear_B_C3_grp/L_Ear_B_C3
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_C_C1_grp_02
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_C_C1_grp_02/L_Ear_C_C1_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_C_C1_grp_02/L_Ear_C_C1_grp_01/L_Ear_C_C1_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_C_C1_grp_02/L_Ear_C_C1_grp_01/L_Ear_C_C1_grp/L_Ear_C_C1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_C_C2_grp_02
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_C_C2_grp_02/L_Ear_C_C2_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_C_C2_grp_02/L_Ear_C_C2_grp_01/L_Ear_C_C2_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_C_C2_grp_02/L_Ear_C_C2_grp_01/L_Ear_C_C2_grp/L_Ear_C_C2
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_C_C3_grp_02
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_C_C3_grp_02/L_Ear_C_C3_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_C_C3_grp_02/L_Ear_C_C3_grp_01/L_Ear_C_C3_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_C_C3_grp_02/L_Ear_C_C3_grp_01/L_Ear_C_C3_grp/L_Ear_C_C3
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_D_C1_grp_02
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_D_C1_grp_02/L_Ear_D_C1_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_D_C1_grp_02/L_Ear_D_C1_grp_01/L_Ear_D_C1_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_D_C1_grp_02/L_Ear_D_C1_grp_01/L_Ear_D_C1_grp/L_Ear_D_C1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_D_C2_grp_02
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_D_C2_grp_02/L_Ear_D_C2_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_D_C2_grp_02/L_Ear_D_C2_grp_01/L_Ear_D_C2_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_D_C2_grp_02/L_Ear_D_C2_grp_01/L_Ear_D_C2_grp/L_Ear_D_C2
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_E_C1_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_E_C1_grp_01/L_Ear_E_C1_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/L_Ear_Grp/L_Ear_ctrl_grp_01/L_Ear_ctrl_grp/L_Ear_ctrl_inner__grp/L_Ear_E_C1_grp_01/L_Ear_E_C1_grp/L_Ear_E_C1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Neck_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Neck_C_grp/Neck_C1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Nostril_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Nostril_C_grp/L_Nostril_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Nostril_C_grp/Mid_Nostril_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Nostril_C_grp/R_Nostril_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_C_grp/R_Ear_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_A_C1_grp_02
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_A_C1_grp_02/R_Ear_A_C1_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_A_C1_grp_02/R_Ear_A_C1_grp_01/R_Ear_A_C1_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_A_C1_grp_02/R_Ear_A_C1_grp_01/R_Ear_A_C1_grp/R_Ear_A_C1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_A_C2_grp_02
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_A_C2_grp_02/R_Ear_A_C2_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_A_C2_grp_02/R_Ear_A_C2_grp_01/R_Ear_A_C2_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_A_C2_grp_02/R_Ear_A_C2_grp_01/R_Ear_A_C2_grp/R_Ear_A_C2
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_A_C3_grp_02
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_A_C3_grp_02/R_Ear_A_C3_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_A_C3_grp_02/R_Ear_A_C3_grp_01/R_Ear_A_C3_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_A_C3_grp_02/R_Ear_A_C3_grp_01/R_Ear_A_C3_grp/R_Ear_A_C3
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_A_C4_grp_02
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_A_C4_grp_02/R_Ear_A_C4_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_A_C4_grp_02/R_Ear_A_C4_grp_01/R_Ear_A_C4_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_A_C4_grp_02/R_Ear_A_C4_grp_01/R_Ear_A_C4_grp/R_Ear_A_C4
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_B_C1_grp_02
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_B_C1_grp_02/R_Ear_B_C1_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_B_C1_grp_02/R_Ear_B_C1_grp_01/R_Ear_B_C1_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_B_C1_grp_02/R_Ear_B_C1_grp_01/R_Ear_B_C1_grp/R_Ear_B_C1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_B_C2_grp_02
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_B_C2_grp_02/R_Ear_B_C2_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_B_C2_grp_02/R_Ear_B_C2_grp_01/R_Ear_B_C2_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_B_C2_grp_02/R_Ear_B_C2_grp_01/R_Ear_B_C2_grp/R_Ear_B_C2
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_B_C3_grp_02
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_B_C3_grp_02/R_Ear_B_C3_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_B_C3_grp_02/R_Ear_B_C3_grp_01/R_Ear_B_C3_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_B_C3_grp_02/R_Ear_B_C3_grp_01/R_Ear_B_C3_grp/R_Ear_B_C3
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_C_C1_grp_02
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_C_C1_grp_02/R_Ear_C_C1_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_C_C1_grp_02/R_Ear_C_C1_grp_01/R_Ear_C_C1_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_C_C1_grp_02/R_Ear_C_C1_grp_01/R_Ear_C_C1_grp/R_Ear_C_C1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_C_C2_grp_02
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_C_C2_grp_02/R_Ear_C_C2_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_C_C2_grp_02/R_Ear_C_C2_grp_01/R_Ear_C_C2_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_C_C2_grp_02/R_Ear_C_C2_grp_01/R_Ear_C_C2_grp/R_Ear_C_C2
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_C_C3_grp_02
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_C_C3_grp_02/R_Ear_C_C3_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_C_C3_grp_02/R_Ear_C_C3_grp_01/R_Ear_C_C3_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_C_C3_grp_02/R_Ear_C_C3_grp_01/R_Ear_C_C3_grp/R_Ear_C_C3
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_D_C1_grp_02
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_D_C1_grp_02/R_Ear_D_C1_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_D_C1_grp_02/R_Ear_D_C1_grp_01/R_Ear_D_C1_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_D_C1_grp_02/R_Ear_D_C1_grp_01/R_Ear_D_C1_grp/R_Ear_D_C1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_D_C2_grp_02
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_D_C2_grp_02/R_Ear_D_C2_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_D_C2_grp_02/R_Ear_D_C2_grp_01/R_Ear_D_C2_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_D_C2_grp_02/R_Ear_D_C2_grp_01/R_Ear_D_C2_grp/R_Ear_D_C2
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_E_C1_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_E_C1_grp_01/R_Ear_E_C1_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/R_Eat_grp/R_Ear_ctrl_grp_01/R_Ear_ctrl_grp/R_Ear_E_C1_grp_01/R_Ear_E_C1_grp/R_Ear_E_C1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1/Trunk_C1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1/Trunk_C1/group9
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1/Trunk_C1/group9/Trunk_cluster1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1/Trunk_FK_C2_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1/Trunk_FK_C2_grp/Trunk_FK_C2
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1/Trunk_FK_C2_grp/Trunk_FK_C2/Trunk_C2
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1/Trunk_FK_C2_grp/Trunk_FK_C2/Trunk_C2/group10
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1/Trunk_FK_C2_grp/Trunk_FK_C2/Trunk_C2/group10/Trunk_cluster2
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1/Trunk_FK_C2_grp/Trunk_FK_C2/Trunk_FK_C3_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1/Trunk_FK_C2_grp/Trunk_FK_C2/Trunk_FK_C3_grp/Trunk_FK_C3
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1/Trunk_FK_C2_grp/Trunk_FK_C2/Trunk_FK_C3_grp/Trunk_FK_C3/Trunk_C3
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1/Trunk_FK_C2_grp/Trunk_FK_C2/Trunk_FK_C3_grp/Trunk_FK_C3/Trunk_C3/group11
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1/Trunk_FK_C2_grp/Trunk_FK_C2/Trunk_FK_C3_grp/Trunk_FK_C3/Trunk_C3/group11/Trunk_cluster3
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1/Trunk_FK_C2_grp/Trunk_FK_C2/Trunk_FK_C3_grp/Trunk_FK_C3/Trunk_FK_C4_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1/Trunk_FK_C2_grp/Trunk_FK_C2/Trunk_FK_C3_grp/Trunk_FK_C3/Trunk_FK_C4_grp/Trunk_FK_C4
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1/Trunk_FK_C2_grp/Trunk_FK_C2/Trunk_FK_C3_grp/Trunk_FK_C3/Trunk_FK_C4_grp/Trunk_FK_C4/Trunk_C4
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1/Trunk_FK_C2_grp/Trunk_FK_C2/Trunk_FK_C3_grp/Trunk_FK_C3/Trunk_FK_C4_grp/Trunk_FK_C4/Trunk_C4/group12
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1/Trunk_FK_C2_grp/Trunk_FK_C2/Trunk_FK_C3_grp/Trunk_FK_C3/Trunk_FK_C4_grp/Trunk_FK_C4/Trunk_C4/group12/Trunk_cluster4
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1/Trunk_FK_C2_grp/Trunk_FK_C2/Trunk_FK_C3_grp/Trunk_FK_C3/Trunk_FK_C4_grp/Trunk_FK_C4/Trunk_FK_C5_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1/Trunk_FK_C2_grp/Trunk_FK_C2/Trunk_FK_C3_grp/Trunk_FK_C3/Trunk_FK_C4_grp/Trunk_FK_C4/Trunk_FK_C5_grp/Trunk_FK_C5
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1/Trunk_FK_C2_grp/Trunk_FK_C2/Trunk_FK_C3_grp/Trunk_FK_C3/Trunk_FK_C4_grp/Trunk_FK_C4/Trunk_FK_C5_grp/Trunk_FK_C5/Trunk_C5
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1/Trunk_FK_C2_grp/Trunk_FK_C2/Trunk_FK_C3_grp/Trunk_FK_C3/Trunk_FK_C4_grp/Trunk_FK_C4/Trunk_FK_C5_grp/Trunk_FK_C5/Trunk_C5/group13
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1/Trunk_FK_C2_grp/Trunk_FK_C2/Trunk_FK_C3_grp/Trunk_FK_C3/Trunk_FK_C4_grp/Trunk_FK_C4/Trunk_FK_C5_grp/Trunk_FK_C5/Trunk_C5/group13/Trunk_cluster5
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1/Trunk_FK_C2_grp/Trunk_FK_C2/Trunk_FK_C3_grp/Trunk_FK_C3/Trunk_FK_C4_grp/Trunk_FK_C4/Trunk_FK_C5_grp/Trunk_FK_C5/Trunk_FK_C6_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1/Trunk_FK_C2_grp/Trunk_FK_C2/Trunk_FK_C3_grp/Trunk_FK_C3/Trunk_FK_C4_grp/Trunk_FK_C4/Trunk_FK_C5_grp/Trunk_FK_C5/Trunk_FK_C6_grp/Trunk_FK_C6
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1/Trunk_FK_C2_grp/Trunk_FK_C2/Trunk_FK_C3_grp/Trunk_FK_C3/Trunk_FK_C4_grp/Trunk_FK_C4/Trunk_FK_C5_grp/Trunk_FK_C5/Trunk_FK_C6_grp/Trunk_FK_C6/Trunk_C6
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1/Trunk_FK_C2_grp/Trunk_FK_C2/Trunk_FK_C3_grp/Trunk_FK_C3/Trunk_FK_C4_grp/Trunk_FK_C4/Trunk_FK_C5_grp/Trunk_FK_C5/Trunk_FK_C6_grp/Trunk_FK_C6/Trunk_C6/group14
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1/Trunk_FK_C2_grp/Trunk_FK_C2/Trunk_FK_C3_grp/Trunk_FK_C3/Trunk_FK_C4_grp/Trunk_FK_C4/Trunk_FK_C5_grp/Trunk_FK_C5/Trunk_FK_C6_grp/Trunk_FK_C6/Trunk_C6/group14/Trunk_cluster6
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1/Trunk_FK_C2_grp/Trunk_FK_C2/Trunk_FK_C3_grp/Trunk_FK_C3/Trunk_FK_C4_grp/Trunk_FK_C4/Trunk_FK_C5_grp/Trunk_FK_C5/Trunk_FK_C6_grp/Trunk_FK_C6/Trunk_FK_C7_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1/Trunk_FK_C2_grp/Trunk_FK_C2/Trunk_FK_C3_grp/Trunk_FK_C3/Trunk_FK_C4_grp/Trunk_FK_C4/Trunk_FK_C5_grp/Trunk_FK_C5/Trunk_FK_C6_grp/Trunk_FK_C6/Trunk_FK_C7_grp/Trunk_FK_C7
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1/Trunk_FK_C2_grp/Trunk_FK_C2/Trunk_FK_C3_grp/Trunk_FK_C3/Trunk_FK_C4_grp/Trunk_FK_C4/Trunk_FK_C5_grp/Trunk_FK_C5/Trunk_FK_C6_grp/Trunk_FK_C6/Trunk_FK_C7_grp/Trunk_FK_C7/Trunk_C7
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1/Trunk_FK_C2_grp/Trunk_FK_C2/Trunk_FK_C3_grp/Trunk_FK_C3/Trunk_FK_C4_grp/Trunk_FK_C4/Trunk_FK_C5_grp/Trunk_FK_C5/Trunk_FK_C6_grp/Trunk_FK_C6/Trunk_FK_C7_grp/Trunk_FK_C7/Trunk_C7/group15
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1/Trunk_FK_C2_grp/Trunk_FK_C2/Trunk_FK_C3_grp/Trunk_FK_C3/Trunk_FK_C4_grp/Trunk_FK_C4/Trunk_FK_C5_grp/Trunk_FK_C5/Trunk_FK_C6_grp/Trunk_FK_C6/Trunk_FK_C7_grp/Trunk_FK_C7/Trunk_C7/group15/Trunk_cluster7
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1/Trunk_FK_C2_grp/Trunk_FK_C2/Trunk_FK_C3_grp/Trunk_FK_C3/Trunk_FK_C4_grp/Trunk_FK_C4/Trunk_FK_C5_grp/Trunk_FK_C5/Trunk_FK_C6_grp/Trunk_FK_C6/Trunk_FK_C7_grp/Trunk_FK_C7/Trunk_FK_C8_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1/Trunk_FK_C2_grp/Trunk_FK_C2/Trunk_FK_C3_grp/Trunk_FK_C3/Trunk_FK_C4_grp/Trunk_FK_C4/Trunk_FK_C5_grp/Trunk_FK_C5/Trunk_FK_C6_grp/Trunk_FK_C6/Trunk_FK_C7_grp/Trunk_FK_C7/Trunk_FK_C8_grp/Trunk_FK_C8
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1/Trunk_FK_C2_grp/Trunk_FK_C2/Trunk_FK_C3_grp/Trunk_FK_C3/Trunk_FK_C4_grp/Trunk_FK_C4/Trunk_FK_C5_grp/Trunk_FK_C5/Trunk_FK_C6_grp/Trunk_FK_C6/Trunk_FK_C7_grp/Trunk_FK_C7/Trunk_FK_C8_grp/Trunk_FK_C8/Trunk_C8
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1/Trunk_FK_C2_grp/Trunk_FK_C2/Trunk_FK_C3_grp/Trunk_FK_C3/Trunk_FK_C4_grp/Trunk_FK_C4/Trunk_FK_C5_grp/Trunk_FK_C5/Trunk_FK_C6_grp/Trunk_FK_C6/Trunk_FK_C7_grp/Trunk_FK_C7/Trunk_FK_C8_grp/Trunk_FK_C8/Trunk_C8/group16
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1/Trunk_FK_C2_grp/Trunk_FK_C2/Trunk_FK_C3_grp/Trunk_FK_C3/Trunk_FK_C4_grp/Trunk_FK_C4/Trunk_FK_C5_grp/Trunk_FK_C5/Trunk_FK_C6_grp/Trunk_FK_C6/Trunk_FK_C7_grp/Trunk_FK_C7/Trunk_FK_C8_grp/Trunk_FK_C8/Trunk_C8/group16/Trunk_cluster8
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1/Trunk_FK_C2_grp/Trunk_FK_C2/Trunk_FK_C3_grp/Trunk_FK_C3/Trunk_FK_C4_grp/Trunk_FK_C4/Trunk_FK_C5_grp/Trunk_FK_C5/Trunk_FK_C6_grp/Trunk_FK_C6/Trunk_FK_C7_grp/Trunk_FK_C7/Trunk_FK_C8_grp/Trunk_FK_C8/Trunk_FK_C9_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1/Trunk_FK_C2_grp/Trunk_FK_C2/Trunk_FK_C3_grp/Trunk_FK_C3/Trunk_FK_C4_grp/Trunk_FK_C4/Trunk_FK_C5_grp/Trunk_FK_C5/Trunk_FK_C6_grp/Trunk_FK_C6/Trunk_FK_C7_grp/Trunk_FK_C7/Trunk_FK_C8_grp/Trunk_FK_C8/Trunk_FK_C9_grp/Trunk_FK_C9
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1/Trunk_FK_C2_grp/Trunk_FK_C2/Trunk_FK_C3_grp/Trunk_FK_C3/Trunk_FK_C4_grp/Trunk_FK_C4/Trunk_FK_C5_grp/Trunk_FK_C5/Trunk_FK_C6_grp/Trunk_FK_C6/Trunk_FK_C7_grp/Trunk_FK_C7/Trunk_FK_C8_grp/Trunk_FK_C8/Trunk_FK_C9_grp/Trunk_FK_C9/Trunk_C9
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1/Trunk_FK_C2_grp/Trunk_FK_C2/Trunk_FK_C3_grp/Trunk_FK_C3/Trunk_FK_C4_grp/Trunk_FK_C4/Trunk_FK_C5_grp/Trunk_FK_C5/Trunk_FK_C6_grp/Trunk_FK_C6/Trunk_FK_C7_grp/Trunk_FK_C7/Trunk_FK_C8_grp/Trunk_FK_C8/Trunk_FK_C9_grp/Trunk_FK_C9/Trunk_C9/group17
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/Trunk_FK_C1_grp/Trunk_FK_C1_Vis_grp/Trunk_FK_C1/Trunk_FK_C2_grp/Trunk_FK_C2/Trunk_FK_C3_grp/Trunk_FK_C3/Trunk_FK_C4_grp/Trunk_FK_C4/Trunk_FK_C5_grp/Trunk_FK_C5/Trunk_FK_C6_grp/Trunk_FK_C6/Trunk_FK_C7_grp/Trunk_FK_C7/Trunk_FK_C8_grp/Trunk_FK_C8/Trunk_FK_C9_grp/Trunk_FK_C9/Trunk_C9/group17/Trunk_cluster9
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/TrunkRoot_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Trunk_grp/TrunkRoot_C_grp/TrunkRoot_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Tusk_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Tusk_grp/L_Tusk_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Tusk_grp/L_Tusk_C_grp/L_Tusk_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Tusk_grp/R_Tusk_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Head_grp/Tusk_grp/R_Tusk_C_grp/R_Tusk_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/L_Collar_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/L_Collar_C_grp/L_Collar_C_Auto_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/L_Collar_C_grp/L_Collar_C_Auto_grp/L_Collar_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/L_Collar_C_grp/L_Collar_C_Auto_grp/L_Collar_C/L_Collar_Up_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/L_Collar_C_grp/L_Collar_C_Auto_grp/L_Collar_C/L_Collar_Up_C_grp/L_Collar_Up_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/L_Hip_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/L_Hip_C_grp/L_Hip_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/L_Hip_C_grp/L_Hip_C/L_Hip_Up_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/L_Hip_C_grp/L_Hip_C/L_Hip_Up_C_grp/L_Hip_Up_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_Fing_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_Fing_C_grp/LB_Ind_C_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_Fing_C_grp/LB_Ind_C_grp_01/LB_Ind_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_Fing_C_grp/LB_Ind_C_grp_01/LB_Ind_C_grp/LB_Ind_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_Fing_C_grp/LB_Mid_C_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_Fing_C_grp/LB_Mid_C_grp_01/LB_Mid_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_Fing_C_grp/LB_Mid_C_grp_01/LB_Mid_C_grp/LB_Mid_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_Fing_C_grp/LB_Pinky_C_grp1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_Fing_C_grp/LB_Pinky_C_grp1/LB_Pinky_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_Fing_C_grp/LB_Pinky_C_grp1/LB_Pinky_C_grp/LB_Pinky_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_FK_Ctrl_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_FK_Ctrl_grp/LB_Ankle_FK_C_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_FK_Ctrl_grp/LB_Ankle_FK_C_grp_01/LB_Ankle_FK_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_FK_Ctrl_grp/LB_Ankle_FK_C_grp_01/LB_Ankle_FK_C_grp/LB_Ankle_FK_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_FK_Ctrl_grp/LB_Ball_FK_C_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_FK_Ctrl_grp/LB_Ball_FK_C_grp_01/LB_Ball_FK_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_FK_Ctrl_grp/LB_Ball_FK_C_grp_01/LB_Ball_FK_C_grp/LB_Ball_FK_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_FK_Ctrl_grp/LB_Knee_FK_C_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_FK_Ctrl_grp/LB_Knee_FK_C_grp_01/LB_Knee_FK_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_FK_Ctrl_grp/LB_Knee_FK_C_grp_01/LB_Knee_FK_C_grp/LB_Knee_FK_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_FK_Ctrl_grp/LB_Thigh_FK_C_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_FK_Ctrl_grp/LB_Thigh_FK_C_grp_01/LB_Thigh_FK_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_FK_Ctrl_grp/LB_Thigh_FK_C_grp_01/LB_Thigh_FK_C_grp/LB_Thigh_FK_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_IK_Ctrl_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_IK_Ctrl_grp/LB_Leg_IK_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_IK_Ctrl_grp/LB_Leg_IK_C_grp/LB_Leg_IK_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_IK_Ctrl_grp/LB_Leg_IK_C_grp/LB_Leg_IK_C/group18
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_IK_Ctrl_grp/LB_Leg_IK_C_grp/LB_Leg_IK_C/group18/LB_curve_cluster21Handle1_Btm
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_IK_Ctrl_grp/LB_Leg_IK_C_grp/LB_Leg_IK_C/LB_IK_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_IK_Ctrl_grp/LB_Leg_IK_C_grp/LB_Leg_IK_C/LB_IK_grp/LB_Heel_Roll_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_IK_Ctrl_grp/LB_Leg_IK_C_grp/LB_Leg_IK_C/LB_IK_grp/LB_Heel_Roll_grp/LB_Ball_Roll_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_IK_Ctrl_grp/LB_Leg_IK_C_grp/LB_Leg_IK_C/LB_IK_grp/LB_Heel_Roll_grp/LB_Ball_Roll_grp/LB_Toe_Roll_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_IK_Ctrl_grp/LB_Leg_IK_C_grp/LB_Leg_IK_C/LB_IK_grp/LB_Heel_Roll_grp/LB_Ball_Roll_grp/LB_Toe_Roll_grp/LB_Ball_Lift_grp2
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_IK_Ctrl_grp/LB_Leg_IK_C_grp/LB_Leg_IK_C/LB_IK_grp/LB_Heel_Roll_grp/LB_Ball_Roll_grp/LB_Toe_Roll_grp/LB_Ball_Lift_grp2/LB_Ball_IK_grp2
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_IK_Ctrl_grp/LB_Leg_IK_C_grp/LB_Leg_IK_C/LB_IK_grp/LB_Heel_Roll_grp/LB_Ball_Roll_grp/LB_Toe_Roll_grp/LB_Ball_Lift_grp2/LB_Ball_Lift_grp1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_IK_Ctrl_grp/LB_Leg_IK_C_grp/LB_Leg_IK_C/LB_IK_grp/LB_Heel_Roll_grp/LB_Ball_Roll_grp/LB_Toe_Roll_grp/LB_Ball_Lift_grp2/LB_Ball_Lift_grp1/LB_Ankle_IK_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_IK_Ctrl_grp/LB_Leg_IK_C_grp/LB_Leg_IK_C/LB_IK_grp/LB_Heel_Roll_grp/LB_Ball_Roll_grp/LB_Toe_Roll_grp/LB_Ball_Lift_grp2/LB_Ball_Lift_grp1/LB_Ball_IK_grp1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_IK_Ctrl_grp/LB_Leg_IK_C_grp/LB_Leg_IK_C/LB_IK_grp/LB_Heel_Roll_grp/LB_Ball_Roll_grp/LB_Toe_Roll_grp/LB_Toe_IK_grp1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_IK_Ctrl_grp/LB_Leg_IK_C_grp/LB_Leg_IK_C/LB_IK_grp/LB_Heel_Roll_grp/LB_Ball_Roll_grp/LB_Toe_Roll_grp/LB_Toe_IK_grp1/LB_Toe_IK_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_IK_Ctrl_grp/LB_Leg_IK_C_grp/LB_Leg_IK_C/LB_Inverse_1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_IK_Ctrl_grp/LB_Leg_IK_C_grp/LB_Leg_IK_C/LB_Inverse_1/LB_Inverse_2
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_IK_Ctrl_grp/LB_Leg_IK_C_grp/LB_Leg_IK_C/LB_Inverse_1/LB_Inverse_2/LB_Inverse_3
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_IK_Ctrl_grp/LB_Leg_IK_C_grp/LB_Leg_IK_C/LB_Inverse_1/LB_Inverse_2/LB_Inverse_3/LB_Inverse_4
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_IK_Ctrl_grp/LB_Leg_IK_C_grp/LB_Leg_IK_C/LB_Inverse_1/LB_Inverse_2/LB_Inverse_3/LB_Inverse_4/LB_Inverse_5
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_IK_Ctrl_grp/LB_Leg_IK_C_grp/LB_Leg_IK_C/LB_Inverse_1/LB_Inverse_2/LB_Inverse_3/LB_Inverse_4/LB_Inverse_5/LB_Inverse_6
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_IK_Ctrl_grp/LB_Leg_IK_C_grp/LB_Leg_IK_C/LB_Inverse_1/LB_Inverse_2/LB_Inverse_3/LB_Inverse_4/LB_Inverse_5/LB_Inverse_6/L_Toe_ikHandle_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_IK_Ctrl_grp/LB_Leg_IK_C_grp/LB_Leg_IK_C/LB_Inverse_1/LB_Inverse_2/LB_Inverse_3/LB_Inverse_4/LB_Inverse_5/LB_Inverse_6/L_Toe_ikHandle_grp/L_Toe_ikHandle
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_IK_Ctrl_grp/LB_Leg_IK_C_grp/LB_Leg_IK_C/LB_Inverse_1/LB_Inverse_2/LB_Inverse_3/LB_Inverse_4/LB_Inverse_5/LB_Inverse_6/LB_Inverse_7
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_IK_Ctrl_grp/LB_Leg_IK_C_grp/LB_Leg_IK_C/LB_Inverse_1/LB_Inverse_2/LB_Inverse_3/LB_Inverse_4/LB_Inverse_5/LB_Inverse_6/LB_Inverse_7/L_Ball_ikHandle
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_IK_Ctrl_grp/LB_Leg_IK_C_grp/LB_Leg_IK_C/LB_Inverse_1/LB_Inverse_2/LB_Inverse_3/LB_Inverse_4/LB_Inverse_5/LB_Inverse_6/LB_Inverse_7/LB_Inverse_8
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_IK_Ctrl_grp/LB_Leg_IK_C_grp/LB_Leg_IK_C/LB_Inverse_1/LB_Inverse_2/LB_Inverse_3/LB_Inverse_4/LB_Inverse_5/LB_Inverse_6/LB_Inverse_7/LB_Inverse_8/L_Ankle_ikHandle
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_IK_Ctrl_grp/LB_Polv_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_ctrl_grp/LB_IK_Ctrl_grp/LB_Polv_C_grp/LB_Polv_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_Extra
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_Extra/LB_IK_FK_Stretch_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_Extra/LB_IK_FK_Stretch_grp/LB_IK_FK_Stretch
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_Extra/LB_Toe_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_Extra/LB_Toe_C_grp/LB_Finger_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_Extra/LB_Toe_C_grp/LB_Toe_Out
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LB_Extra/LB_Toe_C_grp/LB_Toe_Pinky
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_Fing_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_Fing_C_grp/LF_Ind_C_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_Fing_C_grp/LF_Ind_C_grp_01/LF_Ind_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_Fing_C_grp/LF_Ind_C_grp_01/LF_Ind_C_grp/LF_Ind_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_Fing_C_grp/LF_Mid_C_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_Fing_C_grp/LF_Mid_C_grp_01/LF_Mid_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_Fing_C_grp/LF_Mid_C_grp_01/LF_Mid_C_grp/LF_Mid_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_Fing_C_grp/LF_Pinky_C_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_Fing_C_grp/LF_Pinky_C_grp_01/LF_Pinky_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_Fing_C_grp/LF_Pinky_C_grp_01/LF_Pinky_C_grp/LF_Pinky_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_FK_Ctrl_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_FK_Ctrl_grp/LF_Elbow_FK_C_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_FK_Ctrl_grp/LF_Elbow_FK_C_grp_01/LF_Elbow_FK_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_FK_Ctrl_grp/LF_Elbow_FK_C_grp_01/LF_Elbow_FK_C_grp/LF_Elbow_FK_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_FK_Ctrl_grp/LF_Paw_FK_C1_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_FK_Ctrl_grp/LF_Paw_FK_C1_grp_01/LF_Paw_FK_C1_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_FK_Ctrl_grp/LF_Paw_FK_C1_grp_01/LF_Paw_FK_C1_grp/LF_Paw_FK_C1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_FK_Ctrl_grp/LF_Paw_FK_C_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_FK_Ctrl_grp/LF_Paw_FK_C_grp_01/LF_Paw_FK_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_FK_Ctrl_grp/LF_Paw_FK_C_grp_01/LF_Paw_FK_C_grp/LF_Paw_FK_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_FK_Ctrl_grp/LF_Shoulder_FK_C_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_FK_Ctrl_grp/LF_Shoulder_FK_C_grp_01/LF_Shoulder_FK_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_FK_Ctrl_grp/LF_Shoulder_FK_C_grp_01/LF_Shoulder_FK_C_grp/LF_Shoulder_FK_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_FK_Ctrl_grp/LF_Wrist_FK_C_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_FK_Ctrl_grp/LF_Wrist_FK_C_grp_01/LF_Wrist_FK_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_FK_Ctrl_grp/LF_Wrist_FK_C_grp_01/LF_Wrist_FK_C_grp/LF_Wrist_FK_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_IK_Ctrl_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_IK_Ctrl_grp/LF_Leg_IK_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_IK_Ctrl_grp/LF_Leg_IK_C_grp/LF_Leg_IK_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_IK_Ctrl_grp/LF_Leg_IK_C_grp/LF_Leg_IK_C/group22
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_IK_Ctrl_grp/LF_Leg_IK_C_grp/LF_Leg_IK_C/group22/LF_curve_cluster21Handle_Btm
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_IK_Ctrl_grp/LF_Leg_IK_C_grp/LF_Leg_IK_C/L_F_Auto_ikHandle
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_IK_Ctrl_grp/LF_Leg_IK_C_grp/LF_Leg_IK_C/LF_IK_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_IK_Ctrl_grp/LF_Leg_IK_C_grp/LF_Leg_IK_C/LF_IK_grp/LF_Heel_Roll_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_IK_Ctrl_grp/LF_Leg_IK_C_grp/LF_Leg_IK_C/LF_IK_grp/LF_Heel_Roll_grp/LF_Ball_Roll_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_IK_Ctrl_grp/LF_Leg_IK_C_grp/LF_Leg_IK_C/LF_IK_grp/LF_Heel_Roll_grp/LF_Ball_Roll_grp/LF_Toe_Roll_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_IK_Ctrl_grp/LF_Leg_IK_C_grp/LF_Leg_IK_C/LF_IK_grp/LF_Heel_Roll_grp/LF_Ball_Roll_grp/LF_Toe_Roll_grp/LF_Ball_Lift_grp2
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_IK_Ctrl_grp/LF_Leg_IK_C_grp/LF_Leg_IK_C/LF_IK_grp/LF_Heel_Roll_grp/LF_Ball_Roll_grp/LF_Toe_Roll_grp/LF_Ball_Lift_grp2/LF_Ball_IK_grp2
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_IK_Ctrl_grp/LF_Leg_IK_C_grp/LF_Leg_IK_C/LF_IK_grp/LF_Heel_Roll_grp/LF_Ball_Roll_grp/LF_Toe_Roll_grp/LF_Ball_Lift_grp2/LF_Ball_Lift_grp1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_IK_Ctrl_grp/LF_Leg_IK_C_grp/LF_Leg_IK_C/LF_IK_grp/LF_Heel_Roll_grp/LF_Ball_Roll_grp/LF_Toe_Roll_grp/LF_Ball_Lift_grp2/LF_Ball_Lift_grp1/LF_Ankle_IK_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_IK_Ctrl_grp/LF_Leg_IK_C_grp/LF_Leg_IK_C/LF_IK_grp/LF_Heel_Roll_grp/LF_Ball_Roll_grp/LF_Toe_Roll_grp/LF_Ball_Lift_grp2/LF_Ball_Lift_grp1/LF_Ball_IK_grp1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_IK_Ctrl_grp/LF_Leg_IK_C_grp/LF_Leg_IK_C/LF_IK_grp/LF_Heel_Roll_grp/LF_Ball_Roll_grp/LF_Toe_Roll_grp/LF_Toe_IK_grp1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_IK_Ctrl_grp/LF_Leg_IK_C_grp/LF_Leg_IK_C/LF_IK_grp/LF_Heel_Roll_grp/LF_Ball_Roll_grp/LF_Toe_Roll_grp/LF_Toe_IK_grp1/LF_Toe_IK_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_IK_Ctrl_grp/LF_Leg_IK_C_grp/LF_Leg_IK_C/LF_Inverse_1_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_IK_Ctrl_grp/LF_Leg_IK_C_grp/LF_Leg_IK_C/LF_Inverse_1_grp/LF_Inverse_1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_IK_Ctrl_grp/LF_Leg_IK_C_grp/LF_Leg_IK_C/LF_Inverse_1_grp/LF_Inverse_1/LF_Inverse_2
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_IK_Ctrl_grp/LF_Leg_IK_C_grp/LF_Leg_IK_C/LF_Inverse_1_grp/LF_Inverse_1/LF_Inverse_2/LF_Inverse_3
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_IK_Ctrl_grp/LF_Leg_IK_C_grp/LF_Leg_IK_C/LF_Inverse_1_grp/LF_Inverse_1/LF_Inverse_2/LF_Inverse_3/LF_Inverse_4
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_IK_Ctrl_grp/LF_Leg_IK_C_grp/LF_Leg_IK_C/LF_Inverse_1_grp/LF_Inverse_1/LF_Inverse_2/LF_Inverse_3/LF_Inverse_4/LF_Inverse_5
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_IK_Ctrl_grp/LF_Leg_IK_C_grp/LF_Leg_IK_C/LF_Inverse_1_grp/LF_Inverse_1/LF_Inverse_2/LF_Inverse_3/LF_Inverse_4/LF_Inverse_5/LF_Inverse_6
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_IK_Ctrl_grp/LF_Leg_IK_C_grp/LF_Leg_IK_C/LF_Inverse_1_grp/LF_Inverse_1/LF_Inverse_2/LF_Inverse_3/LF_Inverse_4/LF_Inverse_5/LF_Inverse_6/L_Paw_2_ikHandle_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_IK_Ctrl_grp/LF_Leg_IK_C_grp/LF_Leg_IK_C/LF_Inverse_1_grp/LF_Inverse_1/LF_Inverse_2/LF_Inverse_3/LF_Inverse_4/LF_Inverse_5/LF_Inverse_6/L_Paw_2_ikHandle_grp/L_Paw_2_ikHandle
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_IK_Ctrl_grp/LF_Leg_IK_C_grp/LF_Leg_IK_C/LF_Inverse_1_grp/LF_Inverse_1/LF_Inverse_2/LF_Inverse_3/LF_Inverse_4/LF_Inverse_5/LF_Inverse_6/LF_Inverse_7
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_IK_Ctrl_grp/LF_Leg_IK_C_grp/LF_Leg_IK_C/LF_Inverse_1_grp/LF_Inverse_1/LF_Inverse_2/LF_Inverse_3/LF_Inverse_4/LF_Inverse_5/LF_Inverse_6/LF_Inverse_7/L_Paw_1_ikHandle
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_IK_Ctrl_grp/LF_Leg_IK_C_grp/LF_Leg_IK_C/LF_Inverse_1_grp/LF_Inverse_1/LF_Inverse_2/LF_Inverse_3/LF_Inverse_4/LF_Inverse_5/LF_Inverse_6/LF_Inverse_7/LF_Inverse_8a
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_IK_Ctrl_grp/LF_Leg_IK_C_grp/LF_Leg_IK_C/LF_Inverse_1_grp/LF_Inverse_1/LF_Inverse_2/LF_Inverse_3/LF_Inverse_4/LF_Inverse_5/LF_Inverse_6/LF_Inverse_7/LF_Inverse_8a/LF_Inverse_10
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_IK_Ctrl_grp/LF_Leg_IK_C_grp/LF_Leg_IK_C/LF_Inverse_1_grp/LF_Inverse_1/LF_Inverse_2/LF_Inverse_3/LF_Inverse_4/LF_Inverse_5/LF_Inverse_6/LF_Inverse_7/LF_Inverse_8a/LF_Inverse_10/LF_Inverse_8
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_IK_Ctrl_grp/LF_Leg_IK_C_grp/LF_Leg_IK_C/LF_Inverse_1_grp/LF_Inverse_1/LF_Inverse_2/LF_Inverse_3/LF_Inverse_4/LF_Inverse_5/LF_Inverse_6/LF_Inverse_7/LF_Inverse_8a/LF_Inverse_10/LF_Inverse_8/L_Paw_ikHandle
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_IK_Ctrl_grp/LF_Leg_IK_C_grp/LF_Leg_IK_C/LF_Inverse_1_grp/LF_Inverse_1/LF_Inverse_2/LF_Inverse_3/LF_Inverse_4/LF_Inverse_5/LF_Inverse_6/LF_Inverse_7/LF_Inverse_8a/LF_Inverse_10/LF_Inverse_8/LF_Inverse_9
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_IK_Ctrl_grp/LF_Leg_IK_C_grp/LF_Leg_IK_C/LF_Inverse_1_grp/LF_Inverse_1/LF_Inverse_2/LF_Inverse_3/LF_Inverse_4/LF_Inverse_5/LF_Inverse_6/LF_Inverse_7/LF_Inverse_8a/LF_Inverse_10/LF_Inverse_8/LF_Inverse_9/L_Wrist_ikHandle_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_IK_Ctrl_grp/LF_Leg_IK_C_grp/LF_Leg_IK_C/LF_Inverse_1_grp/LF_Inverse_1/LF_Inverse_2/LF_Inverse_3/LF_Inverse_4/LF_Inverse_5/LF_Inverse_6/LF_Inverse_7/LF_Inverse_8a/LF_Inverse_10/LF_Inverse_8/LF_Inverse_9/L_Wrist_ikHandle_grp/L_Wrist_ikHandle
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_IK_Ctrl_grp/LF_Polv_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_ctrl_grp/LF_IK_Ctrl_grp/LF_Polv_C_grp/LF_Polv_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_Extra
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_Extra/LF_IK_FK_Stretch_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_Extra/LF_IK_FK_Stretch_grp/LF_IK_FK_Stretch
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_Extra/LF_Toe_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_Extra/LF_Toe_C_grp/LF_Finger_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_Extra/LF_Toe_C_grp/LF_Toe_Out
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/LF_Extra/LF_Toe_C_grp/LF_Toe_Pinky
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/R_Collar_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/R_Collar_C_grp/R_Collar_C_Auto_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/R_Collar_C_grp/R_Collar_C_Auto_grp/R_Collar_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/R_Collar_C_grp/R_Collar_C_Auto_grp/R_Collar_C/R_Collar_Up_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/R_Collar_C_grp/R_Collar_C_Auto_grp/R_Collar_C/R_Collar_Up_C_grp/R_Collar_Up_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/R_Hip_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/R_Hip_C_grp/R_Hip_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/R_Hip_C_grp/R_Hip_C/R_Hip_Up_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/R_Hip_C_grp/R_Hip_C/R_Hip_Up_C_grp/R_Hip_Up_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_Fing_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_Fing_C_grp/RB_Ind_C_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_Fing_C_grp/RB_Ind_C_grp_01/RB_Ind_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_Fing_C_grp/RB_Ind_C_grp_01/RB_Ind_C_grp/RB_Ind_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_Fing_C_grp/RB_Mid_C_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_Fing_C_grp/RB_Mid_C_grp_01/RB_Mid_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_Fing_C_grp/RB_Mid_C_grp_01/RB_Mid_C_grp/RB_Mid_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_Fing_C_grp/RB_Pinky_C_grp1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_Fing_C_grp/RB_Pinky_C_grp1/RB_Pinky_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_Fing_C_grp/RB_Pinky_C_grp1/RB_Pinky_C_grp/RB_Pinky_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_FK_Ctrl_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_FK_Ctrl_grp/RB_Ankle_FK_C_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_FK_Ctrl_grp/RB_Ankle_FK_C_grp_01/RB_Ankle_FK_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_FK_Ctrl_grp/RB_Ankle_FK_C_grp_01/RB_Ankle_FK_C_grp/RB_Ankle_FK_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_FK_Ctrl_grp/RB_Ball_FK_C_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_FK_Ctrl_grp/RB_Ball_FK_C_grp_01/RB_Ball_FK_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_FK_Ctrl_grp/RB_Ball_FK_C_grp_01/RB_Ball_FK_C_grp/RB_Ball_FK_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_FK_Ctrl_grp/RB_Knee_FK_C_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_FK_Ctrl_grp/RB_Knee_FK_C_grp_01/RB_Knee_FK_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_FK_Ctrl_grp/RB_Knee_FK_C_grp_01/RB_Knee_FK_C_grp/RB_Knee_FK_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_FK_Ctrl_grp/RB_Thigh_FK_C_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_FK_Ctrl_grp/RB_Thigh_FK_C_grp_01/RB_Thigh_FK_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_FK_Ctrl_grp/RB_Thigh_FK_C_grp_01/RB_Thigh_FK_C_grp/RB_Thigh_FK_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_IK_Ctrl_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_IK_Ctrl_grp/RB_Leg_IK_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_IK_Ctrl_grp/RB_Leg_IK_C_grp/RB_Leg_IK_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_IK_Ctrl_grp/RB_Leg_IK_C_grp/RB_Leg_IK_C/group20
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_IK_Ctrl_grp/RB_Leg_IK_C_grp/RB_Leg_IK_C/group20/RB_curve_cluster21Handle_Btm
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_IK_Ctrl_grp/RB_Leg_IK_C_grp/RB_Leg_IK_C/RB_IK_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_IK_Ctrl_grp/RB_Leg_IK_C_grp/RB_Leg_IK_C/RB_IK_grp/RB_Heel_Roll_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_IK_Ctrl_grp/RB_Leg_IK_C_grp/RB_Leg_IK_C/RB_IK_grp/RB_Heel_Roll_grp/RB_Ball_Roll_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_IK_Ctrl_grp/RB_Leg_IK_C_grp/RB_Leg_IK_C/RB_IK_grp/RB_Heel_Roll_grp/RB_Ball_Roll_grp/RB_Toe_Roll_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_IK_Ctrl_grp/RB_Leg_IK_C_grp/RB_Leg_IK_C/RB_IK_grp/RB_Heel_Roll_grp/RB_Ball_Roll_grp/RB_Toe_Roll_grp/RB_Ball_Lift_grp2
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_IK_Ctrl_grp/RB_Leg_IK_C_grp/RB_Leg_IK_C/RB_IK_grp/RB_Heel_Roll_grp/RB_Ball_Roll_grp/RB_Toe_Roll_grp/RB_Ball_Lift_grp2/RB_Ball_IK_grp2
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_IK_Ctrl_grp/RB_Leg_IK_C_grp/RB_Leg_IK_C/RB_IK_grp/RB_Heel_Roll_grp/RB_Ball_Roll_grp/RB_Toe_Roll_grp/RB_Ball_Lift_grp2/RB_Ball_Lift_grp1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_IK_Ctrl_grp/RB_Leg_IK_C_grp/RB_Leg_IK_C/RB_IK_grp/RB_Heel_Roll_grp/RB_Ball_Roll_grp/RB_Toe_Roll_grp/RB_Ball_Lift_grp2/RB_Ball_Lift_grp1/RB_Ankle_IK_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_IK_Ctrl_grp/RB_Leg_IK_C_grp/RB_Leg_IK_C/RB_IK_grp/RB_Heel_Roll_grp/RB_Ball_Roll_grp/RB_Toe_Roll_grp/RB_Ball_Lift_grp2/RB_Ball_Lift_grp1/RB_Ball_IK_grp1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_IK_Ctrl_grp/RB_Leg_IK_C_grp/RB_Leg_IK_C/RB_IK_grp/RB_Heel_Roll_grp/RB_Ball_Roll_grp/RB_Toe_Roll_grp/RB_Toe_IK_grp1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_IK_Ctrl_grp/RB_Leg_IK_C_grp/RB_Leg_IK_C/RB_IK_grp/RB_Heel_Roll_grp/RB_Ball_Roll_grp/RB_Toe_Roll_grp/RB_Toe_IK_grp1/RB_Toe_IK_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_IK_Ctrl_grp/RB_Leg_IK_C_grp/RB_Leg_IK_C/RB_Inverse_1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_IK_Ctrl_grp/RB_Leg_IK_C_grp/RB_Leg_IK_C/RB_Inverse_1/RB_Inverse_2
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_IK_Ctrl_grp/RB_Leg_IK_C_grp/RB_Leg_IK_C/RB_Inverse_1/RB_Inverse_2/RB_Inverse_3
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_IK_Ctrl_grp/RB_Leg_IK_C_grp/RB_Leg_IK_C/RB_Inverse_1/RB_Inverse_2/RB_Inverse_3/RB_Inverse_4
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_IK_Ctrl_grp/RB_Leg_IK_C_grp/RB_Leg_IK_C/RB_Inverse_1/RB_Inverse_2/RB_Inverse_3/RB_Inverse_4/RB_Inverse_5
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_IK_Ctrl_grp/RB_Leg_IK_C_grp/RB_Leg_IK_C/RB_Inverse_1/RB_Inverse_2/RB_Inverse_3/RB_Inverse_4/RB_Inverse_5/RB_Inverse_6
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_IK_Ctrl_grp/RB_Leg_IK_C_grp/RB_Leg_IK_C/RB_Inverse_1/RB_Inverse_2/RB_Inverse_3/RB_Inverse_4/RB_Inverse_5/RB_Inverse_6/R_Toe_ikHandle_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_IK_Ctrl_grp/RB_Leg_IK_C_grp/RB_Leg_IK_C/RB_Inverse_1/RB_Inverse_2/RB_Inverse_3/RB_Inverse_4/RB_Inverse_5/RB_Inverse_6/R_Toe_ikHandle_grp/R_Toe_ikHandle
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_IK_Ctrl_grp/RB_Leg_IK_C_grp/RB_Leg_IK_C/RB_Inverse_1/RB_Inverse_2/RB_Inverse_3/RB_Inverse_4/RB_Inverse_5/RB_Inverse_6/RB_Inverse_7
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_IK_Ctrl_grp/RB_Leg_IK_C_grp/RB_Leg_IK_C/RB_Inverse_1/RB_Inverse_2/RB_Inverse_3/RB_Inverse_4/RB_Inverse_5/RB_Inverse_6/RB_Inverse_7/R_Ball_ikHandle
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_IK_Ctrl_grp/RB_Leg_IK_C_grp/RB_Leg_IK_C/RB_Inverse_1/RB_Inverse_2/RB_Inverse_3/RB_Inverse_4/RB_Inverse_5/RB_Inverse_6/RB_Inverse_7/RB_Inverse_8
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_IK_Ctrl_grp/RB_Leg_IK_C_grp/RB_Leg_IK_C/RB_Inverse_1/RB_Inverse_2/RB_Inverse_3/RB_Inverse_4/RB_Inverse_5/RB_Inverse_6/RB_Inverse_7/RB_Inverse_8/R_Ankle_ikHandle
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_IK_Ctrl_grp/RB_Polv_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_ctrl_grp/RB_IK_Ctrl_grp/RB_Polv_C_grp/RB_Polv_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_Extra
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_Extra/RB_IK_FK_Stretch_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_Extra/RB_IK_FK_Stretch_grp/RB_IK_FK_Stretch
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_Extra/RB_Toe_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_Extra/RB_Toe_C_grp/RB_Finger_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_Extra/RB_Toe_C_grp/RB_Toe_Out
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RB_Extra/RB_Toe_C_grp/RB_Toe_Pinky
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_Fing_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_Fing_C_grp/RF_Ind_C_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_Fing_C_grp/RF_Ind_C_grp_01/RF_Ind_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_Fing_C_grp/RF_Ind_C_grp_01/RF_Ind_C_grp/RF_Ind_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_Fing_C_grp/RF_Mid_C_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_Fing_C_grp/RF_Mid_C_grp_01/RF_Mid_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_Fing_C_grp/RF_Mid_C_grp_01/RF_Mid_C_grp/RF_Mid_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_Fing_C_grp/RF_Pinky_C_grp01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_Fing_C_grp/RF_Pinky_C_grp01/RF_Pinky_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_Fing_C_grp/RF_Pinky_C_grp01/RF_Pinky_C_grp/RF_Pinky_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_FK_Ctrl_grp1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_FK_Ctrl_grp1/RF_Elbow_FK_C_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_FK_Ctrl_grp1/RF_Elbow_FK_C_grp_01/RF_Elbow_FK_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_FK_Ctrl_grp1/RF_Elbow_FK_C_grp_01/RF_Elbow_FK_C_grp/RF_Elbow_FK_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_FK_Ctrl_grp1/RF_Paw_FK_C1_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_FK_Ctrl_grp1/RF_Paw_FK_C1_grp_01/RF_Paw_FK_C1_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_FK_Ctrl_grp1/RF_Paw_FK_C1_grp_01/RF_Paw_FK_C1_grp/RF_Paw_FK_C1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_FK_Ctrl_grp1/RF_Paw_FK_C_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_FK_Ctrl_grp1/RF_Paw_FK_C_grp_01/RF_Paw_FK_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_FK_Ctrl_grp1/RF_Paw_FK_C_grp_01/RF_Paw_FK_C_grp/RF_Paw_FK_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_FK_Ctrl_grp1/RF_Shoulder_FK_C_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_FK_Ctrl_grp1/RF_Shoulder_FK_C_grp_01/RF_Shoulder_FK_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_FK_Ctrl_grp1/RF_Shoulder_FK_C_grp_01/RF_Shoulder_FK_C_grp/RF_Shoulder_FK_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_FK_Ctrl_grp1/RF_Wrist_FK_C_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_FK_Ctrl_grp1/RF_Wrist_FK_C_grp_01/RF_Wrist_FK_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_FK_Ctrl_grp1/RF_Wrist_FK_C_grp_01/RF_Wrist_FK_C_grp/RF_Wrist_FK_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_IK_Ctrl_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_IK_Ctrl_grp/RF_Leg_IK_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_IK_Ctrl_grp/RF_Leg_IK_C_grp/RF_Leg_IK_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_IK_Ctrl_grp/RF_Leg_IK_C_grp/RF_Leg_IK_C/group21
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_IK_Ctrl_grp/RF_Leg_IK_C_grp/RF_Leg_IK_C/group21/RF_curve_cluster21Handle_Btm
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_IK_Ctrl_grp/RF_Leg_IK_C_grp/RF_Leg_IK_C/R_F_Auto_ikHandle
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_IK_Ctrl_grp/RF_Leg_IK_C_grp/RF_Leg_IK_C/RF_IK_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_IK_Ctrl_grp/RF_Leg_IK_C_grp/RF_Leg_IK_C/RF_IK_grp/RF_Heel_Roll_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_IK_Ctrl_grp/RF_Leg_IK_C_grp/RF_Leg_IK_C/RF_IK_grp/RF_Heel_Roll_grp/RF_Ball_Roll_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_IK_Ctrl_grp/RF_Leg_IK_C_grp/RF_Leg_IK_C/RF_IK_grp/RF_Heel_Roll_grp/RF_Ball_Roll_grp/RF_Toe_Roll_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_IK_Ctrl_grp/RF_Leg_IK_C_grp/RF_Leg_IK_C/RF_IK_grp/RF_Heel_Roll_grp/RF_Ball_Roll_grp/RF_Toe_Roll_grp/RF_Ball_Lift_grp2
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_IK_Ctrl_grp/RF_Leg_IK_C_grp/RF_Leg_IK_C/RF_IK_grp/RF_Heel_Roll_grp/RF_Ball_Roll_grp/RF_Toe_Roll_grp/RF_Ball_Lift_grp2/RF_Ball_IK_grp2
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_IK_Ctrl_grp/RF_Leg_IK_C_grp/RF_Leg_IK_C/RF_IK_grp/RF_Heel_Roll_grp/RF_Ball_Roll_grp/RF_Toe_Roll_grp/RF_Ball_Lift_grp2/RF_Ball_Lift_grp1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_IK_Ctrl_grp/RF_Leg_IK_C_grp/RF_Leg_IK_C/RF_IK_grp/RF_Heel_Roll_grp/RF_Ball_Roll_grp/RF_Toe_Roll_grp/RF_Ball_Lift_grp2/RF_Ball_Lift_grp1/RF_Ankle_IK_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_IK_Ctrl_grp/RF_Leg_IK_C_grp/RF_Leg_IK_C/RF_IK_grp/RF_Heel_Roll_grp/RF_Ball_Roll_grp/RF_Toe_Roll_grp/RF_Ball_Lift_grp2/RF_Ball_Lift_grp1/RF_Ball_IK_grp1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_IK_Ctrl_grp/RF_Leg_IK_C_grp/RF_Leg_IK_C/RF_IK_grp/RF_Heel_Roll_grp/RF_Ball_Roll_grp/RF_Toe_Roll_grp/RF_Toe_IK_grp1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_IK_Ctrl_grp/RF_Leg_IK_C_grp/RF_Leg_IK_C/RF_IK_grp/RF_Heel_Roll_grp/RF_Ball_Roll_grp/RF_Toe_Roll_grp/RF_Toe_IK_grp1/RF_Toe_IK_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_IK_Ctrl_grp/RF_Leg_IK_C_grp/RF_Leg_IK_C/RF_Inverse_1_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_IK_Ctrl_grp/RF_Leg_IK_C_grp/RF_Leg_IK_C/RF_Inverse_1_grp/RF_Inverse_1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_IK_Ctrl_grp/RF_Leg_IK_C_grp/RF_Leg_IK_C/RF_Inverse_1_grp/RF_Inverse_1/RF_Inverse_2
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_IK_Ctrl_grp/RF_Leg_IK_C_grp/RF_Leg_IK_C/RF_Inverse_1_grp/RF_Inverse_1/RF_Inverse_2/RF_Inverse_3
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_IK_Ctrl_grp/RF_Leg_IK_C_grp/RF_Leg_IK_C/RF_Inverse_1_grp/RF_Inverse_1/RF_Inverse_2/RF_Inverse_3/RF_Inverse_4
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_IK_Ctrl_grp/RF_Leg_IK_C_grp/RF_Leg_IK_C/RF_Inverse_1_grp/RF_Inverse_1/RF_Inverse_2/RF_Inverse_3/RF_Inverse_4/RF_Inverse_5
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_IK_Ctrl_grp/RF_Leg_IK_C_grp/RF_Leg_IK_C/RF_Inverse_1_grp/RF_Inverse_1/RF_Inverse_2/RF_Inverse_3/RF_Inverse_4/RF_Inverse_5/RF_Inverse_6
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_IK_Ctrl_grp/RF_Leg_IK_C_grp/RF_Leg_IK_C/RF_Inverse_1_grp/RF_Inverse_1/RF_Inverse_2/RF_Inverse_3/RF_Inverse_4/RF_Inverse_5/RF_Inverse_6/R_Paw_2_ikHandle_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_IK_Ctrl_grp/RF_Leg_IK_C_grp/RF_Leg_IK_C/RF_Inverse_1_grp/RF_Inverse_1/RF_Inverse_2/RF_Inverse_3/RF_Inverse_4/RF_Inverse_5/RF_Inverse_6/R_Paw_2_ikHandle_grp/R_Paw_2_ikHandle
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_IK_Ctrl_grp/RF_Leg_IK_C_grp/RF_Leg_IK_C/RF_Inverse_1_grp/RF_Inverse_1/RF_Inverse_2/RF_Inverse_3/RF_Inverse_4/RF_Inverse_5/RF_Inverse_6/RF_Inverse_7
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_IK_Ctrl_grp/RF_Leg_IK_C_grp/RF_Leg_IK_C/RF_Inverse_1_grp/RF_Inverse_1/RF_Inverse_2/RF_Inverse_3/RF_Inverse_4/RF_Inverse_5/RF_Inverse_6/RF_Inverse_7/R_Paw_1_ikHandle
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_IK_Ctrl_grp/RF_Leg_IK_C_grp/RF_Leg_IK_C/RF_Inverse_1_grp/RF_Inverse_1/RF_Inverse_2/RF_Inverse_3/RF_Inverse_4/RF_Inverse_5/RF_Inverse_6/RF_Inverse_7/RF_Inverse_8a
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_IK_Ctrl_grp/RF_Leg_IK_C_grp/RF_Leg_IK_C/RF_Inverse_1_grp/RF_Inverse_1/RF_Inverse_2/RF_Inverse_3/RF_Inverse_4/RF_Inverse_5/RF_Inverse_6/RF_Inverse_7/RF_Inverse_8a/RF_Inverse_10
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_IK_Ctrl_grp/RF_Leg_IK_C_grp/RF_Leg_IK_C/RF_Inverse_1_grp/RF_Inverse_1/RF_Inverse_2/RF_Inverse_3/RF_Inverse_4/RF_Inverse_5/RF_Inverse_6/RF_Inverse_7/RF_Inverse_8a/RF_Inverse_10/RF_Inverse_8
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_IK_Ctrl_grp/RF_Leg_IK_C_grp/RF_Leg_IK_C/RF_Inverse_1_grp/RF_Inverse_1/RF_Inverse_2/RF_Inverse_3/RF_Inverse_4/RF_Inverse_5/RF_Inverse_6/RF_Inverse_7/RF_Inverse_8a/RF_Inverse_10/RF_Inverse_8/R_Paw_ikHandle
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_IK_Ctrl_grp/RF_Leg_IK_C_grp/RF_Leg_IK_C/RF_Inverse_1_grp/RF_Inverse_1/RF_Inverse_2/RF_Inverse_3/RF_Inverse_4/RF_Inverse_5/RF_Inverse_6/RF_Inverse_7/RF_Inverse_8a/RF_Inverse_10/RF_Inverse_8/RF_Inverse_9
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_IK_Ctrl_grp/RF_Leg_IK_C_grp/RF_Leg_IK_C/RF_Inverse_1_grp/RF_Inverse_1/RF_Inverse_2/RF_Inverse_3/RF_Inverse_4/RF_Inverse_5/RF_Inverse_6/RF_Inverse_7/RF_Inverse_8a/RF_Inverse_10/RF_Inverse_8/RF_Inverse_9/R_Wrist_ikHandle
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_IK_Ctrl_grp/RF_Leg_IK_C_grp/RF_Leg_IK_C/RF_Inverse_1_grp/RF_Inverse_1/RF_Inverse_2/RF_Inverse_3/RF_Inverse_4/RF_Inverse_5/RF_Inverse_6/RF_Inverse_7/RF_Inverse_8a/RF_Inverse_10/RF_Inverse_8/RF_Inverse_9/R_Wrist_ikHandle_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_IK_Ctrl_grp/RF_Polv_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_ctrl_grp/RF_IK_Ctrl_grp/RF_Polv_C_grp/RF_Polv_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_Extra
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_Extra/RF_IK_FK_Stretch_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_Extra/RF_IK_FK_Stretch_grp/RF_IK_FK_Stretch
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_Extra/RF_Toe_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_Extra/RF_Toe_C_grp/RF_Finger_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_Extra/RF_Toe_C_grp/RF_Toe_Out
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Leg_grp/RF_Extra/RF_Toe_C_grp/RF_Toe_Pinky
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Belly_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Belly_C_grp/Belly_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/COG_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/COG_C_grp/COG_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/COG_C_grp/COG_C/Spine_Mid_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/COG_C_grp/COG_C/Spine_Mid_C_grp/Spine_Mid_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/COG_C_grp/COG_C/Spine_Mid_C_grp/Spine_Mid_C/Spine_Mid_clusterHandle_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/COG_C_grp/COG_C/Spine_Mid_C_grp/Spine_Mid_C/Spine_Mid_clusterHandle_grp/Spine_Mid_clusterHandle
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Hip_FK_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Hip_FK_C_grp/Hip_FK_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Spine_IK_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Spine_IK_C_grp/Spine_Back_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Spine_IK_C_grp/Spine_Back_C_grp/Spine_Back_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Spine_IK_C_grp/Spine_Back_C_grp/Spine_Back_C/Spine_Btm_clusterHandle_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Spine_IK_C_grp/Spine_Back_C_grp/Spine_Back_C/Spine_Btm_clusterHandle_grp/Spine_Btm_clusterHandle
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Spine_IK_C_grp/Spine_C_grp1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Spine_IK_C_grp/Spine_C_grp1/Spine_C1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Spine_IK_C_grp/Spine_C_grp1/Spine_C1/Spine_C_grp2
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Spine_IK_C_grp/Spine_C_grp1/Spine_C1/Spine_C_grp2/Spine_C2
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Spine_IK_C_grp/Spine_C_grp1/Spine_C1/Spine_C_grp2/Spine_C2/Spine_Front_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Spine_IK_C_grp/Spine_C_grp1/Spine_C1/Spine_C_grp2/Spine_C2/Spine_Front_C_grp/Spine_Front_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Spine_IK_C_grp/Spine_C_grp1/Spine_C1/Spine_C_grp2/Spine_C2/Spine_Front_C_grp/Spine_Front_C/Spine_Tip_cluster1Handle_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Spine_IK_C_grp/Spine_C_grp1/Spine_C1/Spine_C_grp2/Spine_C2/Spine_Front_C_grp/Spine_Front_C/Spine_Tip_cluster1Handle_grp/Spine_Tip_clusterHandle
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Tail_root_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Tail_root_C_grp/Tail_root_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Tail_root_C_grp/Tail_root_C/group1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Tail_root_C_grp/Tail_root_C/group1/cluster8Handle
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Tail_root_C_grp/Tail_root_C/Tail_C1_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Tail_root_C_grp/Tail_root_C/Tail_C1_grp/Tail_FK_C1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Tail_root_C_grp/Tail_root_C/Tail_C1_grp/Tail_FK_C1/Tail_C1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Tail_root_C_grp/Tail_root_C/Tail_C1_grp/Tail_FK_C1/Tail_C1/group2
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Tail_root_C_grp/Tail_root_C/Tail_C1_grp/Tail_FK_C1/Tail_C1/group2/cluster7Handle
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Tail_root_C_grp/Tail_root_C/Tail_C1_grp/Tail_FK_C1/Tail_C2_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Tail_root_C_grp/Tail_root_C/Tail_C1_grp/Tail_FK_C1/Tail_C2_grp/Tail_FK_C2
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Tail_root_C_grp/Tail_root_C/Tail_C1_grp/Tail_FK_C1/Tail_C2_grp/Tail_FK_C2/Tail_C2
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Tail_root_C_grp/Tail_root_C/Tail_C1_grp/Tail_FK_C1/Tail_C2_grp/Tail_FK_C2/Tail_C2/group3
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Tail_root_C_grp/Tail_root_C/Tail_C1_grp/Tail_FK_C1/Tail_C2_grp/Tail_FK_C2/Tail_C2/group3/cluster6Handle
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Tail_root_C_grp/Tail_root_C/Tail_C1_grp/Tail_FK_C1/Tail_C2_grp/Tail_FK_C2/Tail_C3_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Tail_root_C_grp/Tail_root_C/Tail_C1_grp/Tail_FK_C1/Tail_C2_grp/Tail_FK_C2/Tail_C3_grp/Tail_FK_C3
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Tail_root_C_grp/Tail_root_C/Tail_C1_grp/Tail_FK_C1/Tail_C2_grp/Tail_FK_C2/Tail_C3_grp/Tail_FK_C3/Tail_C3
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Tail_root_C_grp/Tail_root_C/Tail_C1_grp/Tail_FK_C1/Tail_C2_grp/Tail_FK_C2/Tail_C3_grp/Tail_FK_C3/Tail_C3/group4
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Tail_root_C_grp/Tail_root_C/Tail_C1_grp/Tail_FK_C1/Tail_C2_grp/Tail_FK_C2/Tail_C3_grp/Tail_FK_C3/Tail_C3/group4/cluster5Handle
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Tail_root_C_grp/Tail_root_C/Tail_C1_grp/Tail_FK_C1/Tail_C2_grp/Tail_FK_C2/Tail_C3_grp/Tail_FK_C3/Tail_C3/Tail_C4_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Tail_root_C_grp/Tail_root_C/Tail_C1_grp/Tail_FK_C1/Tail_C2_grp/Tail_FK_C2/Tail_C3_grp/Tail_FK_C3/Tail_FK_C4
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Tail_root_C_grp/Tail_root_C/Tail_C1_grp/Tail_FK_C1/Tail_C2_grp/Tail_FK_C2/Tail_C3_grp/Tail_FK_C3/Tail_FK_C4/Tail_C4
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Tail_root_C_grp/Tail_root_C/Tail_C1_grp/Tail_FK_C1/Tail_C2_grp/Tail_FK_C2/Tail_C3_grp/Tail_FK_C3/Tail_FK_C4/Tail_C4/group5
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Tail_root_C_grp/Tail_root_C/Tail_C1_grp/Tail_FK_C1/Tail_C2_grp/Tail_FK_C2/Tail_C3_grp/Tail_FK_C3/Tail_FK_C4/Tail_C4/group5/cluster4Handle
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Tail_root_C_grp/Tail_root_C/Tail_C1_grp/Tail_FK_C1/Tail_C2_grp/Tail_FK_C2/Tail_C3_grp/Tail_FK_C3/Tail_FK_C4/Tail_C4/group6
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Tail_root_C_grp/Tail_root_C/Tail_C1_grp/Tail_FK_C1/Tail_C2_grp/Tail_FK_C2/Tail_C3_grp/Tail_FK_C3/Tail_FK_C4/Tail_C4/group6/cluster9Handle
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Tail_root_C_grp/Tail_root_C/Tail_C1_grp/Tail_FK_C1/Tail_C2_grp/Tail_FK_C2/Tail_C3_grp/Tail_FK_C3/Tail_FK_C4/Tail_C5_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Tail_root_C_grp/Tail_root_C/Tail_C1_grp/Tail_FK_C1/Tail_C2_grp/Tail_FK_C2/Tail_C3_grp/Tail_FK_C3/Tail_FK_C4/Tail_C5_grp/Tail_FK_C5
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Tail_root_C_grp/Tail_root_C/Tail_C1_grp/Tail_FK_C1/Tail_C2_grp/Tail_FK_C2/Tail_C3_grp/Tail_FK_C3/Tail_FK_C4/Tail_C5_grp/Tail_FK_C5/Tail_C5
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Tail_root_C_grp/Tail_root_C/Tail_C1_grp/Tail_FK_C1/Tail_C2_grp/Tail_FK_C2/Tail_C3_grp/Tail_FK_C3/Tail_FK_C4/Tail_C5_grp/Tail_FK_C5/Tail_C5/group7
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Tail_root_C_grp/Tail_root_C/Tail_C1_grp/Tail_FK_C1/Tail_C2_grp/Tail_FK_C2/Tail_C3_grp/Tail_FK_C3/Tail_FK_C4/Tail_C5_grp/Tail_FK_C5/Tail_C5/group7/cluster10Handle
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Tail_root_C_grp/Tail_root_C/Tail_C1_grp/Tail_FK_C1/Tail_C2_grp/Tail_FK_C2/Tail_C3_grp/Tail_FK_C3/Tail_FK_C4/Tail_C5_grp/Tail_FK_C5/Tail_C6_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Tail_root_C_grp/Tail_root_C/Tail_C1_grp/Tail_FK_C1/Tail_C2_grp/Tail_FK_C2/Tail_C3_grp/Tail_FK_C3/Tail_FK_C4/Tail_C5_grp/Tail_FK_C5/Tail_C6_grp/Tail_FK_C6
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Tail_root_C_grp/Tail_root_C/Tail_C1_grp/Tail_FK_C1/Tail_C2_grp/Tail_FK_C2/Tail_C3_grp/Tail_FK_C3/Tail_FK_C4/Tail_C5_grp/Tail_FK_C5/Tail_C6_grp/Tail_FK_C6/Tail_C6
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Tail_root_C_grp/Tail_root_C/Tail_C1_grp/Tail_FK_C1/Tail_C2_grp/Tail_FK_C2/Tail_C3_grp/Tail_FK_C3/Tail_FK_C4/Tail_C5_grp/Tail_FK_C5/Tail_C6_grp/Tail_FK_C6/Tail_C6/group8
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/Spine/Tail_root_C_grp/Tail_root_C/Tail_C1_grp/Tail_FK_C1/Tail_C2_grp/Tail_FK_C2/Tail_C3_grp/Tail_FK_C3/Tail_FK_C4/Tail_C5_grp/Tail_FK_C5/Tail_C6_grp/Tail_FK_C6/Tail_C6/group8/cluster11Handle
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/Trunk_Arm_IK_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/Trunk_Arm_IK_C_grp/Trunk_Arm_IK_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/Trunk_Arm_IK_C_grp/Trunk_Arm_IK_C/group28
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/Trunk_Arm_IK_C_grp/Trunk_Arm_IK_C/group28/cluster40Handle
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/Trunk_Arm_IK_C_grp/Trunk_Arm_IK_C/XTrunk_ikHandle
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/Trunk_Pol_V_C_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/Trunk_Pol_V_C_grp/Trunk_Pol_V_C
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/XIK_Ctrl_jnt_1_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/XIK_Ctrl_jnt_1_grp/XIK_Ctrl_jnt_1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/XIK_Ctrl_jnt_1_grp/XIK_Ctrl_jnt_1/Ex_IK_C1_grp_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/XIK_Ctrl_jnt_1_grp/XIK_Ctrl_jnt_1/Ex_IK_C1_grp_grp/Ex_IK_C1_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/XIK_Ctrl_jnt_1_grp/XIK_Ctrl_jnt_1/Ex_IK_C1_grp_grp/Ex_IK_C1_grp/Ex_IK_C1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/XIK_Ctrl_jnt_1_grp/XIK_Ctrl_jnt_1/Ex_IK_C1_grp_grp/Ex_IK_C1_grp/Ex_IK_C1/Tr_C1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/XIK_Ctrl_jnt_1_grp/XIK_Ctrl_jnt_1/Ex_IK_C2_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/XIK_Ctrl_jnt_1_grp/XIK_Ctrl_jnt_1/Ex_IK_C2_grp/Ex_IK_C2
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/XIK_Ctrl_jnt_1_grp/XIK_Ctrl_jnt_1/Ex_IK_C2_grp/Ex_IK_C2/Tr_C2
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/XIK_Ctrl_jnt_1_grp/XIK_Ctrl_jnt_1/XIK_Ctrl_jnt_2
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/XIK_Ctrl_jnt_1_grp/XIK_Ctrl_jnt_1/XIK_Ctrl_jnt_2/Ex_IK_C3_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/XIK_Ctrl_jnt_1_grp/XIK_Ctrl_jnt_1/XIK_Ctrl_jnt_2/Ex_IK_C3_grp_01/Ex_IK_C3_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/XIK_Ctrl_jnt_1_grp/XIK_Ctrl_jnt_1/XIK_Ctrl_jnt_2/Ex_IK_C3_grp_01/Ex_IK_C3_grp/Ex_IK_C3
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/XIK_Ctrl_jnt_1_grp/XIK_Ctrl_jnt_1/XIK_Ctrl_jnt_2/Ex_IK_C3_grp_01/Ex_IK_C3_grp/Ex_IK_C3/Tr_C3
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/XIK_Ctrl_jnt_1_grp/XIK_Ctrl_jnt_1/XIK_Ctrl_jnt_2/Ex_IK_C4_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/XIK_Ctrl_jnt_1_grp/XIK_Ctrl_jnt_1/XIK_Ctrl_jnt_2/Ex_IK_C4_grp/Ex_IK_C4
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/XIK_Ctrl_jnt_1_grp/XIK_Ctrl_jnt_1/XIK_Ctrl_jnt_2/Ex_IK_C4_grp/Ex_IK_C4/Tr_C4
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/XIK_Ctrl_jnt_1_grp/XIK_Ctrl_jnt_1/XIK_Ctrl_jnt_2/XIK_Ctrl_jnt_3
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/XIK_Ctrl_jnt_1_grp/XIK_Ctrl_jnt_1/XIK_Ctrl_jnt_2/XIK_Ctrl_jnt_3/Ex_IK_C5_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/XIK_Ctrl_jnt_1_grp/XIK_Ctrl_jnt_1/XIK_Ctrl_jnt_2/XIK_Ctrl_jnt_3/Ex_IK_C5_grp_01/Ex_IK_C5_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/XIK_Ctrl_jnt_1_grp/XIK_Ctrl_jnt_1/XIK_Ctrl_jnt_2/XIK_Ctrl_jnt_3/Ex_IK_C5_grp_01/Ex_IK_C5_grp/Ex_IK_C5
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/XIK_Ctrl_jnt_1_grp/XIK_Ctrl_jnt_1/XIK_Ctrl_jnt_2/XIK_Ctrl_jnt_3/Ex_IK_C5_grp_01/Ex_IK_C5_grp/Ex_IK_C5/Tr_C5
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/XIK_Ctrl_jnt_1_grp/XIK_Ctrl_jnt_1/XIK_Ctrl_jnt_2/XIK_Ctrl_jnt_3/Ex_IK_C6_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/XIK_Ctrl_jnt_1_grp/XIK_Ctrl_jnt_1/XIK_Ctrl_jnt_2/XIK_Ctrl_jnt_3/Ex_IK_C6_grp/Ex_IK_C6
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/XIK_Ctrl_jnt_1_grp/XIK_Ctrl_jnt_1/XIK_Ctrl_jnt_2/XIK_Ctrl_jnt_3/Ex_IK_C6_grp/Ex_IK_C6/Tr_C6
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/XIK_Ctrl_jnt_1_grp/XIK_Ctrl_jnt_1/XIK_Ctrl_jnt_2/XIK_Ctrl_jnt_3/XIK_Ctrl_jnt_4
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/XIK_Ctrl_jnt_1_grp/XIK_Ctrl_jnt_1/XIK_Ctrl_jnt_2/XIK_Ctrl_jnt_3/XIK_Ctrl_jnt_4/Ex_IK_C7_grp_01
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/XIK_Ctrl_jnt_1_grp/XIK_Ctrl_jnt_1/XIK_Ctrl_jnt_2/XIK_Ctrl_jnt_3/XIK_Ctrl_jnt_4/Ex_IK_C7_grp_01/Ex_IK_C7_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/XIK_Ctrl_jnt_1_grp/XIK_Ctrl_jnt_1/XIK_Ctrl_jnt_2/XIK_Ctrl_jnt_3/XIK_Ctrl_jnt_4/Ex_IK_C7_grp_01/Ex_IK_C7_grp/Ex_IK_C7
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/XIK_Ctrl_jnt_1_grp/XIK_Ctrl_jnt_1/XIK_Ctrl_jnt_2/XIK_Ctrl_jnt_3/XIK_Ctrl_jnt_4/Ex_IK_C7_grp_01/Ex_IK_C7_grp/Ex_IK_C7/Ex_IK_C8_grp
+          1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/XIK_Ctrl_jnt_1_grp/XIK_Ctrl_jnt_1/XIK_Ctrl_jnt_2/XIK_Ctrl_jnt_3/XIK_Ctrl_jnt_4/Ex_IK_C7_grp_01/Ex_IK_C7_grp/Ex_IK_C7/Tr_C7
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/XIK_Ctrl_jnt_1_grp/XIK_Ctrl_jnt_1/XIK_Ctrl_jnt_2/XIK_Ctrl_jnt_3/XIK_Ctrl_jnt_4/Ex_IK_C8_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/XIK_Ctrl_jnt_1_grp/XIK_Ctrl_jnt_1/XIK_Ctrl_jnt_2/XIK_Ctrl_jnt_3/XIK_Ctrl_jnt_4/Ex_IK_C8_grp/Ex_IK_C8
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/XIK_Ctrl_jnt_1_grp/XIK_Ctrl_jnt_1/XIK_Ctrl_jnt_2/XIK_Ctrl_jnt_3/XIK_Ctrl_jnt_4/Ex_IK_C8_grp/Ex_IK_C8/Ex_IK_C9_grp
+          1
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/XIK_Ctrl_jnt_1_grp/XIK_Ctrl_jnt_1/XIK_Ctrl_jnt_2/XIK_Ctrl_jnt_3/XIK_Ctrl_jnt_4/Ex_IK_C8_grp/Ex_IK_C8/Tr_C8
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/XIK_Ctrl_jnt_1_grp/XIK_Ctrl_jnt_1/XIK_Ctrl_jnt_2/XIK_Ctrl_jnt_3/XIK_Ctrl_jnt_4/Ex_IK_C9_grp
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/XIK_Ctrl_jnt_1_grp/XIK_Ctrl_jnt_1/XIK_Ctrl_jnt_2/XIK_Ctrl_jnt_3/XIK_Ctrl_jnt_4/Ex_IK_C9_grp/Ex_IK_C9
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/XIK_Ctrl_jnt_1_grp/XIK_Ctrl_jnt_1/XIK_Ctrl_jnt_2/XIK_Ctrl_jnt_3/XIK_Ctrl_jnt_4/Ex_IK_C9_grp/Ex_IK_C9/Tr_C9
+        weight: 1
+      - path: Placement_C/Master_C/CTRLS/X_C_grp/X_C_grp_Vis_grp/XIK_Ctrl_jnt_1_grp/XIK_Ctrl_jnt_1/XIK_Ctrl_jnt_2/XIK_Ctrl_jnt_3/XIK_Ctrl_jnt_4/XIK_Ctrl_jnt_5
+        weight: 1
+      - path: Placement_C/Master_C/skeleton
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/L_HIP_root
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/L_HIP_root/L_HIP
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/L_HIP_root/L_HIP/L_THIGH
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/L_HIP_root/L_HIP/L_THIGH/L_THIGH1
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/L_HIP_root/L_HIP/L_THIGH/L_THIGH1/L_KNEE
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/L_HIP_root/L_HIP/L_THIGH/L_THIGH1/L_KNEE/L_KNEE1
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/L_HIP_root/L_HIP/L_THIGH/L_THIGH1/L_KNEE/L_KNEE1/L_Ankle
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/L_HIP_root/L_HIP/L_THIGH/L_THIGH1/L_KNEE/L_KNEE1/L_Ankle/L_BALL
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/L_HIP_root/L_HIP/L_THIGH/L_THIGH1/L_KNEE/L_KNEE1/L_Ankle/L_BALL/L_TOE
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/L_HIP_root/L_HIP/L_THIGH/L_THIGH1/L_KNEE/L_KNEE1/L_Ankle/L_BALL/LB_INDEX1
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/L_HIP_root/L_HIP/L_THIGH/L_THIGH1/L_KNEE/L_KNEE1/L_Ankle/L_BALL/LB_INDEX1/LB_INDEX2
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/L_HIP_root/L_HIP/L_THIGH/L_THIGH1/L_KNEE/L_KNEE1/L_Ankle/L_BALL/LB_MID1
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/L_HIP_root/L_HIP/L_THIGH/L_THIGH1/L_KNEE/L_KNEE1/L_Ankle/L_BALL/LB_MID1/LB_MID2
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/L_HIP_root/L_HIP/L_THIGH/L_THIGH1/L_KNEE/L_KNEE1/L_Ankle/L_BALL/LB_PINKY1
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/L_HIP_root/L_HIP/L_THIGH/L_THIGH1/L_KNEE/L_KNEE1/L_Ankle/L_BALL/LB_PINKY1/LB_PINKY2
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/L_HIP_root/L_HIP/L_THIGH/L_THIGH1/L_KNEE/L_KNEE1/L_Ankle/squash3Handle
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/R_HIP_root
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/R_HIP_root/R_HIP
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/R_HIP_root/R_HIP/R_THIGH
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/R_HIP_root/R_HIP/R_THIGH/R_THIGH1
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/R_HIP_root/R_HIP/R_THIGH/R_THIGH1/R_KNEE
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/R_HIP_root/R_HIP/R_THIGH/R_THIGH1/R_KNEE/R_KNEE1
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/R_HIP_root/R_HIP/R_THIGH/R_THIGH1/R_KNEE/R_KNEE1/R_Ankle
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/R_HIP_root/R_HIP/R_THIGH/R_THIGH1/R_KNEE/R_KNEE1/R_Ankle/R_BALL
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/R_HIP_root/R_HIP/R_THIGH/R_THIGH1/R_KNEE/R_KNEE1/R_Ankle/R_BALL/R_TOE
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/R_HIP_root/R_HIP/R_THIGH/R_THIGH1/R_KNEE/R_KNEE1/R_Ankle/R_BALL/RB_INDEX1
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/R_HIP_root/R_HIP/R_THIGH/R_THIGH1/R_KNEE/R_KNEE1/R_Ankle/R_BALL/RB_INDEX1/RB_INDEX2
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/R_HIP_root/R_HIP/R_THIGH/R_THIGH1/R_KNEE/R_KNEE1/R_Ankle/R_BALL/RB_MID1
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/R_HIP_root/R_HIP/R_THIGH/R_THIGH1/R_KNEE/R_KNEE1/R_Ankle/R_BALL/RB_MID1/RB_MID2
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/R_HIP_root/R_HIP/R_THIGH/R_THIGH1/R_KNEE/R_KNEE1/R_Ankle/R_BALL/RB_PINKY1
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/R_HIP_root/R_HIP/R_THIGH/R_THIGH1/R_KNEE/R_KNEE1/R_Ankle/R_BALL/RB_PINKY1/RB_PINKY2
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/R_HIP_root/R_HIP/R_THIGH/R_THIGH1/R_KNEE/R_KNEE1/R_Ankle/squash4Handle
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/TAIL_Root
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/TAIL_Root/TAIL1
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/TAIL_Root/TAIL1/TAIL2
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/TAIL_Root/TAIL1/TAIL2/TAIL3
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/TAIL_Root/TAIL1/TAIL2/TAIL3/TAIL4
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/TAIL_Root/TAIL1/TAIL2/TAIL3/TAIL4/TAIL5
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/TAIL_Root/TAIL1/TAIL2/TAIL3/TAIL4/TAIL5/TAIL6
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/TAIL_Root/TAIL1/TAIL2/TAIL3/TAIL4/TAIL5/TAIL6/TAIL7
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/TAIL_Root/TAIL1/TAIL2/TAIL3/TAIL4/TAIL5/TAIL6/TAIL7/TAIL8
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/TAIL_Root/TAIL1/TAIL2/TAIL3/TAIL4/TAIL5/TAIL6/TAIL7/TAIL8/TAIL9
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/TAIL_Root/TAIL1/TAIL2/TAIL3/TAIL4/TAIL5/TAIL6/TAIL7/TAIL8/TAIL9/TAIL10
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/TAIL_Root/TAIL1/TAIL2/TAIL3/TAIL4/TAIL5/TAIL6/TAIL7/TAIL8/TAIL9/TAIL10/TAIL11
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/TAIL_Root/TAIL1/TAIL2/TAIL3/TAIL4/TAIL5/TAIL6/TAIL7/TAIL8/TAIL9/TAIL10/TAIL11/TAIL12
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/TAIL_Root/TAIL1/TAIL2/TAIL3/TAIL4/TAIL5/TAIL6/TAIL7/TAIL8/TAIL9/TAIL10/TAIL11/TAIL12/TAIL13
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/TAIL_Root/TAIL1/TAIL2/TAIL3/TAIL4/TAIL5/TAIL6/TAIL7/TAIL8/TAIL9/TAIL10/TAIL11/TAIL12/TAIL13/TAIL14
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/TAIL_Root/TAIL1/TAIL2/TAIL3/TAIL4/TAIL5/TAIL6/TAIL7/TAIL8/TAIL9/TAIL10/TAIL11/TAIL12/TAIL13/TAIL14/TAIL15
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/TAIL_Root/TAIL1/TAIL2/TAIL3/TAIL4/TAIL5/TAIL6/TAIL7/TAIL8/TAIL9/TAIL10/TAIL11/TAIL12/TAIL13/TAIL14/TAIL15/TAIL16
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/TAIL_Root/TAIL1/TAIL2/TAIL3/TAIL4/TAIL5/TAIL6/TAIL7/TAIL8/TAIL9/TAIL10/TAIL11/TAIL12/TAIL13/TAIL14/TAIL15/TAIL16/TAIL17
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/TAIL_Root/TAIL1/TAIL2/TAIL3/TAIL4/TAIL5/TAIL6/TAIL7/TAIL8/TAIL9/TAIL10/TAIL11/TAIL12/TAIL13/TAIL14/TAIL15/TAIL16/TAIL17/TAIL18
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/TAIL_Root/TAIL1/TAIL2/TAIL3/TAIL4/TAIL5/TAIL6/TAIL7/TAIL8/TAIL9/TAIL10/TAIL11/TAIL12/TAIL13/TAIL14/TAIL15/TAIL16/TAIL17/TAIL18/TAIL19
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/TAIL_Root/TAIL1/TAIL2/TAIL3/TAIL4/TAIL5/TAIL6/TAIL7/TAIL8/TAIL9/TAIL10/TAIL11/TAIL12/TAIL13/TAIL14/TAIL15/TAIL16/TAIL17/TAIL18/TAIL19/TAIL20
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/TAIL_Root/TAIL1/TAIL2/TAIL3/TAIL4/TAIL5/TAIL6/TAIL7/TAIL8/TAIL9/TAIL10/TAIL11/TAIL12/TAIL13/TAIL14/TAIL15/TAIL16/TAIL17/TAIL18/TAIL19/TAIL20/TAIL21
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/TAIL_Root/TAIL1/TAIL2/TAIL3/TAIL4/TAIL5/TAIL6/TAIL7/TAIL8/TAIL9/TAIL10/TAIL11/TAIL12/TAIL13/TAIL14/TAIL15/TAIL16/TAIL17/TAIL18/TAIL19/TAIL20/TAIL21/TAIL22
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/TAIL_Root/TAIL1/TAIL2/TAIL3/TAIL4/TAIL5/TAIL6/TAIL7/TAIL8/TAIL9/TAIL10/TAIL11/TAIL12/TAIL13/TAIL14/TAIL15/TAIL16/TAIL17/TAIL18/TAIL19/TAIL20/TAIL21/TAIL22/TAIL23
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/TAIL_Root/TAIL1/TAIL2/TAIL3/TAIL4/TAIL5/TAIL6/TAIL7/TAIL8/TAIL9/TAIL10/TAIL11/TAIL12/TAIL13/TAIL14/TAIL15/TAIL16/TAIL17/TAIL18/TAIL19/TAIL20/TAIL21/TAIL22/TAIL23/TAIL24
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/TAIL_Root/TAIL1/TAIL2/TAIL3/TAIL4/TAIL5/TAIL6/TAIL7/TAIL8/TAIL9/TAIL10/TAIL11/TAIL12/TAIL13/TAIL14/TAIL15/TAIL16/TAIL17/TAIL18/TAIL19/TAIL20/TAIL21/TAIL22/TAIL23/TAIL24/TAIL25
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/HIP1/TAIL_Root/TAIL1/TAIL2/TAIL3/TAIL4/TAIL5/TAIL6/TAIL7/TAIL8/TAIL9/TAIL10/TAIL11/TAIL12/TAIL13/TAIL14/TAIL15/TAIL16/TAIL17/TAIL18/TAIL19/TAIL20/TAIL21/TAIL22/TAIL23/TAIL24/TAIL25/TAIL26
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/L_CLAVICLE
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/L_CLAVICLE/L_CLAVICLE_tip
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/L_CLAVICLE/L_SHOLDER
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/L_CLAVICLE/L_SHOLDER/L_SHOLDER1
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/L_CLAVICLE/L_SHOLDER/L_SHOLDER1/L_ELBOW
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/L_CLAVICLE/L_SHOLDER/L_SHOLDER1/L_ELBOW/L_ELBOW1
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/L_CLAVICLE/L_SHOLDER/L_SHOLDER1/L_ELBOW/L_ELBOW1/L_WRIST
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/L_CLAVICLE/L_SHOLDER/L_SHOLDER1/L_ELBOW/L_ELBOW1/L_WRIST/L_PAW
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/L_CLAVICLE/L_SHOLDER/L_SHOLDER1/L_ELBOW/L_ELBOW1/L_WRIST/L_PAW/L_PAW1
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/L_CLAVICLE/L_SHOLDER/L_SHOLDER1/L_ELBOW/L_ELBOW1/L_WRIST/L_PAW/L_PAW1/L_PAWEND
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/L_CLAVICLE/L_SHOLDER/L_SHOLDER1/L_ELBOW/L_ELBOW1/L_WRIST/L_PAW/L_PAW1/LF_INDEX1
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/L_CLAVICLE/L_SHOLDER/L_SHOLDER1/L_ELBOW/L_ELBOW1/L_WRIST/L_PAW/L_PAW1/LF_INDEX1/LF_INDEX2
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/L_CLAVICLE/L_SHOLDER/L_SHOLDER1/L_ELBOW/L_ELBOW1/L_WRIST/L_PAW/L_PAW1/LF_MID1
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/L_CLAVICLE/L_SHOLDER/L_SHOLDER1/L_ELBOW/L_ELBOW1/L_WRIST/L_PAW/L_PAW1/LF_MID1/LF_MID2
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/L_CLAVICLE/L_SHOLDER/L_SHOLDER1/L_ELBOW/L_ELBOW1/L_WRIST/L_PAW/L_PAW1/LF_PINKY1
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/L_CLAVICLE/L_SHOLDER/L_SHOLDER1/L_ELBOW/L_ELBOW1/L_WRIST/L_PAW/L_PAW1/LF_PINKY1/LF_PINKY2
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/L_CLAVICLE/L_SHOLDER/L_SHOLDER1/L_ELBOW/L_ELBOW1/L_WRIST/L_PAW/squash1Handle
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/HEAD2
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_Ear
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_Ear/LE_A_1
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_Ear/LE_A_1/LE_A_2
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_Ear/LE_A_1/LE_A_2/LE_A_3
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_Ear/LE_A_1/LE_A_2/LE_A_3/LE_A_4
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_Ear/LE_A_1/LE_A_2/LE_A_3/LE_A_4/joint197
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_Ear/LE_A_1/LE_A_2/LE_A_3/LE_A_4/joint197/LE_A_5
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_Ear/LE_A_1/LE_A_2/LE_A_3/LE_A_4/joint197/LE_A_5/LE_A_6
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_Ear/LE_A_1/LE_A_2/LE_A_3/LE_A_4/joint197/LE_A_5/LE_A_6/LE_A_7
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_Ear/LE_B_1
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_Ear/LE_B_1/LE_B_2
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_Ear/LE_B_1/LE_B_2/LE_B_3
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_Ear/LE_B_1/LE_B_2/LE_B_3/LE_B_4
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_Ear/LE_B_1/LE_B_2/LE_B_3/LE_B_4/LE_B_5
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_Ear/LE_B_1/LE_B_2/LE_B_3/LE_B_4/LE_B_5/LE_B_6
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_Ear/LE_B_1/LE_B_2/LE_B_3/LE_B_4/LE_B_5/LE_B_6/LE_B_7
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_Ear/LE_C_1
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_Ear/LE_C_1/LE_C_2
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_Ear/LE_C_1/LE_C_2/LE_C_3
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_Ear/LE_C_1/LE_C_2/LE_C_3/LE_C_4
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_Ear/LE_C_1/LE_C_2/LE_C_3/LE_C_4/LE_C_5
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_Ear/LE_C_1/LE_C_2/LE_C_3/LE_C_4/LE_C_5/LE_C_6
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_Ear/LE_C_1/LE_C_2/LE_C_3/LE_C_4/LE_C_5/LE_C_6/LE_C_7
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_Ear/LE_D_1
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_Ear/LE_D_1/LE_D_2
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_Ear/LE_D_1/LE_D_2/LE_D_3
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_Ear/LE_D_1/LE_D_2/LE_D_3/LE_D_4
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_Ear/LE_D_1/LE_D_2/LE_D_3/LE_D_4/LE_D_5
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_Ear/LE_D_1/LE_D_2/LE_D_3/LE_D_4/LE_D_5/LE_D_6
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_Ear/LE_E_1
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_Ear/LE_E_1/LE_E_2
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_Ear/LE_E_1/LE_E_2/LE_E_3
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_Ear/LE_E_1/LE_E_2/LE_E_3/LE_E_4
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_TUSK1
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_TUSK1/L_TUSK2
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_TUSK1/L_TUSK2/L_TUSK3
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_TUSK1/L_TUSK2/L_TUSK3/L_TUSK4
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_TUSK1/L_TUSK2/L_TUSK3/L_TUSK4/L_TUSK5
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_TUSK1/L_TUSK2/L_TUSK3/L_TUSK4/L_TUSK5/L_TUSK6
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_TUSK1/L_TUSK2/L_TUSK3/L_TUSK4/L_TUSK5/L_TUSK6/L_TUSK7
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_TUSK1/L_TUSK2/L_TUSK3/L_TUSK4/L_TUSK5/L_TUSK6/L_TUSK7/L_TUSK8
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_TUSK1/L_TUSK2/L_TUSK3/L_TUSK4/L_TUSK5/L_TUSK6/L_TUSK7/L_TUSK8/L_TUSK9
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_TUSK1/L_TUSK2/L_TUSK3/L_TUSK4/L_TUSK5/L_TUSK6/L_TUSK7/L_TUSK8/L_TUSK9/L_TUSK10
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_TUSK1/L_TUSK2/L_TUSK3/L_TUSK4/L_TUSK5/L_TUSK6/L_TUSK7/L_TUSK8/L_TUSK9/L_TUSK10/L_TUSK11
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_TUSK1/L_TUSK2/L_TUSK3/L_TUSK4/L_TUSK5/L_TUSK6/L_TUSK7/L_TUSK8/L_TUSK9/L_TUSK10/L_TUSK11/L_TUSK12
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/L_TUSK1/L_TUSK2/L_TUSK3/L_TUSK4/L_TUSK5/L_TUSK6/L_TUSK7/L_TUSK8/L_TUSK9/L_TUSK10/L_TUSK11/L_TUSK12/L_TUSK13
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/Lower_Jaw1
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/Lower_Jaw1/Lower_Jaw2
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/Lower_Jaw1/Lower_Jaw2/Lower_Jaw3
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/Lower_Jaw1/Lower_Jaw2/Lower_Jaw3/Lower_Jaw4
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/Lower_Jaw1/Lower_Jaw2/Lower_Jaw3/Lower_Jaw4/Lower_Jaw5
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_Ear
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_Ear/RE_A_1
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_Ear/RE_A_1/RE_A_2
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_Ear/RE_A_1/RE_A_2/RE_A_3
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_Ear/RE_A_1/RE_A_2/RE_A_3/RE_A_4
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_Ear/RE_A_1/RE_A_2/RE_A_3/RE_A_4/joint197
+          1
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_Ear/RE_A_1/RE_A_2/RE_A_3/RE_A_4/joint197
+          1/RE_A_5
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_Ear/RE_A_1/RE_A_2/RE_A_3/RE_A_4/joint197
+          1/RE_A_5/RE_A_6
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_Ear/RE_A_1/RE_A_2/RE_A_3/RE_A_4/joint197
+          1/RE_A_5/RE_A_6/RE_A_7
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_Ear/RE_B_1
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_Ear/RE_B_1/RE_B_2
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_Ear/RE_B_1/RE_B_2/RE_B_3
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_Ear/RE_B_1/RE_B_2/RE_B_3/RE_B_4
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_Ear/RE_B_1/RE_B_2/RE_B_3/RE_B_4/RE_B_5
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_Ear/RE_B_1/RE_B_2/RE_B_3/RE_B_4/RE_B_5/RE_B_6
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_Ear/RE_B_1/RE_B_2/RE_B_3/RE_B_4/RE_B_5/RE_B_6/RE_B_7
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_Ear/RE_C_1
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_Ear/RE_C_1/RE_C_2
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_Ear/RE_C_1/RE_C_2/RE_C_3
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_Ear/RE_C_1/RE_C_2/RE_C_3/RE_C_4
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_Ear/RE_C_1/RE_C_2/RE_C_3/RE_C_4/RE_C_5
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_Ear/RE_C_1/RE_C_2/RE_C_3/RE_C_4/RE_C_5/RE_C_6
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_Ear/RE_C_1/RE_C_2/RE_C_3/RE_C_4/RE_C_5/RE_C_6/RE_C_7
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_Ear/RE_D_1
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_Ear/RE_D_1/RE_D_2
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_Ear/RE_D_1/RE_D_2/RE_D_3
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_Ear/RE_D_1/RE_D_2/RE_D_3/RE_D_4
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_Ear/RE_D_1/RE_D_2/RE_D_3/RE_D_4/RE_D_5
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_Ear/RE_D_1/RE_D_2/RE_D_3/RE_D_4/RE_D_5/RE_D_6
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_Ear/RE_E_1
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_Ear/RE_E_1/RE_E_2
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_Ear/RE_E_1/RE_E_2/RE_E_3
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_Ear/RE_E_1/RE_E_2/RE_E_3/RE_E_4
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_TUSK1
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_TUSK1/R_TUSK2
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_TUSK1/R_TUSK2/R_TUSK3
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_TUSK1/R_TUSK2/R_TUSK3/R_TUSK4
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_TUSK1/R_TUSK2/R_TUSK3/R_TUSK4/R_TUSK5
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_TUSK1/R_TUSK2/R_TUSK3/R_TUSK4/R_TUSK5/R_TUSK6
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_TUSK1/R_TUSK2/R_TUSK3/R_TUSK4/R_TUSK5/R_TUSK6/R_TUSK7
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_TUSK1/R_TUSK2/R_TUSK3/R_TUSK4/R_TUSK5/R_TUSK6/R_TUSK7/R_TUSK8
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_TUSK1/R_TUSK2/R_TUSK3/R_TUSK4/R_TUSK5/R_TUSK6/R_TUSK7/R_TUSK8/R_TUSK9
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_TUSK1/R_TUSK2/R_TUSK3/R_TUSK4/R_TUSK5/R_TUSK6/R_TUSK7/R_TUSK8/R_TUSK9/R_TUSK10
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_TUSK1/R_TUSK2/R_TUSK3/R_TUSK4/R_TUSK5/R_TUSK6/R_TUSK7/R_TUSK8/R_TUSK9/R_TUSK10/R_TUSK11
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_TUSK1/R_TUSK2/R_TUSK3/R_TUSK4/R_TUSK5/R_TUSK6/R_TUSK7/R_TUSK8/R_TUSK9/R_TUSK10/R_TUSK11/R_TUSK12
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/R_TUSK1/R_TUSK2/R_TUSK3/R_TUSK4/R_TUSK5/R_TUSK6/R_TUSK7/R_TUSK8/R_TUSK9/R_TUSK10/R_TUSK11/R_TUSK12/R_TUSK13
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/T1
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/T1/T2
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/T1/T2/T3
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/T1/T2/T3/TRUNK
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/T1/T2/T3/TRUNK/group27
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/T1/T2/T3/TRUNK/group27/cluster39Handle
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/T1/T2/T3/TRUNK/TRUNK1
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/T1/T2/T3/TRUNK/TRUNK1/TRUNK2
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/T1/T2/T3/TRUNK/TRUNK1/TRUNK2/TRUNK3
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/T1/T2/T3/TRUNK/TRUNK1/TRUNK2/TRUNK3/TRUNK4
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/T1/T2/T3/TRUNK/TRUNK1/TRUNK2/TRUNK3/TRUNK4/TRUNK5
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/T1/T2/T3/TRUNK/TRUNK1/TRUNK2/TRUNK3/TRUNK4/TRUNK5/TRUNK6
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/T1/T2/T3/TRUNK/TRUNK1/TRUNK2/TRUNK3/TRUNK4/TRUNK5/TRUNK6/TRUNK7
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/T1/T2/T3/TRUNK/TRUNK1/TRUNK2/TRUNK3/TRUNK4/TRUNK5/TRUNK6/TRUNK7/TRUNK8
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/T1/T2/T3/TRUNK/TRUNK1/TRUNK2/TRUNK3/TRUNK4/TRUNK5/TRUNK6/TRUNK7/TRUNK8/TRUNK9
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/T1/T2/T3/TRUNK/TRUNK1/TRUNK2/TRUNK3/TRUNK4/TRUNK5/TRUNK6/TRUNK7/TRUNK8/TRUNK9/TRUNK10
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/T1/T2/T3/TRUNK/TRUNK1/TRUNK2/TRUNK3/TRUNK4/TRUNK5/TRUNK6/TRUNK7/TRUNK8/TRUNK9/TRUNK10/TRUNK11
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/T1/T2/T3/TRUNK/TRUNK1/TRUNK2/TRUNK3/TRUNK4/TRUNK5/TRUNK6/TRUNK7/TRUNK8/TRUNK9/TRUNK10/TRUNK11/TRUNK12
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/T1/T2/T3/TRUNK/TRUNK1/TRUNK2/TRUNK3/TRUNK4/TRUNK5/TRUNK6/TRUNK7/TRUNK8/TRUNK9/TRUNK10/TRUNK11/TRUNK12/TRUNK13
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/T1/T2/T3/TRUNK/TRUNK1/TRUNK2/TRUNK3/TRUNK4/TRUNK5/TRUNK6/TRUNK7/TRUNK8/TRUNK9/TRUNK10/TRUNK11/TRUNK12/TRUNK13/TRUNK14
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/T1/T2/T3/TRUNK/TRUNK1/TRUNK2/TRUNK3/TRUNK4/TRUNK5/TRUNK6/TRUNK7/TRUNK8/TRUNK9/TRUNK10/TRUNK11/TRUNK12/TRUNK13/TRUNK14/TRUNK15
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/T1/T2/T3/TRUNK/TRUNK1/TRUNK2/TRUNK3/TRUNK4/TRUNK5/TRUNK6/TRUNK7/TRUNK8/TRUNK9/TRUNK10/TRUNK11/TRUNK12/TRUNK13/TRUNK14/TRUNK15/TRUNK16
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/T1/T2/T3/TRUNK/TRUNK1/TRUNK2/TRUNK3/TRUNK4/TRUNK5/TRUNK6/TRUNK7/TRUNK8/TRUNK9/TRUNK10/TRUNK11/TRUNK12/TRUNK13/TRUNK14/TRUNK15/TRUNK16/TRUNK17
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/T1/T2/T3/TRUNK/TRUNK1/TRUNK2/TRUNK3/TRUNK4/TRUNK5/TRUNK6/TRUNK7/TRUNK8/TRUNK9/TRUNK10/TRUNK11/TRUNK12/TRUNK13/TRUNK14/TRUNK15/TRUNK16/TRUNK17/TRUNK18
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/T1/T2/T3/TRUNK/TRUNK1/TRUNK2/TRUNK3/TRUNK4/TRUNK5/TRUNK6/TRUNK7/TRUNK8/TRUNK9/TRUNK10/TRUNK11/TRUNK12/TRUNK13/TRUNK14/TRUNK15/TRUNK16/TRUNK17/TRUNK18/TRUNK19
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/T1/T2/T3/TRUNK/TRUNK1/TRUNK2/TRUNK3/TRUNK4/TRUNK5/TRUNK6/TRUNK7/TRUNK8/TRUNK9/TRUNK10/TRUNK11/TRUNK12/TRUNK13/TRUNK14/TRUNK15/TRUNK16/TRUNK17/TRUNK18/TRUNK19/TRUNK20
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/T1/T2/T3/TRUNK/TRUNK1/TRUNK2/TRUNK3/TRUNK4/TRUNK5/TRUNK6/TRUNK7/TRUNK8/TRUNK9/TRUNK10/TRUNK11/TRUNK12/TRUNK13/TRUNK14/TRUNK15/TRUNK16/TRUNK17/TRUNK18/TRUNK19/TRUNK21
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/T1/T2/T3/TRUNK/TRUNK1/TRUNK2/TRUNK3/TRUNK4/TRUNK5/TRUNK6/TRUNK7/TRUNK8/TRUNK9/TRUNK10/TRUNK11/TRUNK12/TRUNK13/TRUNK14/TRUNK15/TRUNK16/TRUNK17/TRUNK18/TRUNK19/TRUNK21/TRUNK22
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/T1/T2/T3/TRUNK/TRUNK1/TRUNK2/TRUNK3/TRUNK4/TRUNK5/TRUNK6/TRUNK7/TRUNK8/TRUNK9/TRUNK10/TRUNK11/TRUNK12/TRUNK13/TRUNK14/TRUNK15/TRUNK16/TRUNK17/TRUNK18/TRUNK19/TRUNK21/TRUNK22/TRUNK23
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/T1/T2/T3/TRUNK/TRUNK1/TRUNK2/TRUNK3/TRUNK4/TRUNK5/TRUNK6/TRUNK7/TRUNK8/TRUNK9/TRUNK10/TRUNK11/TRUNK12/TRUNK13/TRUNK14/TRUNK15/TRUNK16/TRUNK17/TRUNK18/TRUNK19/TRUNK24
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/T1/T2/T3/TRUNK/TRUNK1/TRUNK2/TRUNK3/TRUNK4/TRUNK5/TRUNK6/TRUNK7/TRUNK8/TRUNK9/TRUNK10/TRUNK11/TRUNK12/TRUNK13/TRUNK14/TRUNK15/TRUNK16/TRUNK17/TRUNK18/TRUNK19/TRUNK24/TRUNK25
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/T1/T2/T3/TRUNK/TRUNK1/TRUNK2/TRUNK3/TRUNK4/TRUNK5/TRUNK6/TRUNK7/TRUNK8/TRUNK9/TRUNK10/TRUNK11/TRUNK12/TRUNK13/TRUNK14/TRUNK15/TRUNK16/TRUNK17/TRUNK18/TRUNK19/TRUNK24/TRUNK25/TRUNK26
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/T1/T2/T3/TRUNK/TRUNK1/TRUNK2/TRUNK3/TRUNK4/TRUNK5/TRUNK6/TRUNK7/TRUNK8/TRUNK9/TRUNK10/TRUNK11/TRUNK12/TRUNK13/TRUNK14/TRUNK15/TRUNK16/TRUNK17/TRUNK18/TRUNK19/TRUNK27
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/T1/T2/T3/TRUNK/TRUNK1/TRUNK2/TRUNK3/TRUNK4/TRUNK5/TRUNK6/TRUNK7/TRUNK8/TRUNK9/TRUNK10/TRUNK11/TRUNK12/TRUNK13/TRUNK14/TRUNK15/TRUNK16/TRUNK17/TRUNK18/TRUNK19/TRUNK27/TRUNK28
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/T1/T2/T3/TRUNK/TRUNK1/TRUNK2/TRUNK3/TRUNK4/TRUNK5/TRUNK6/TRUNK7/TRUNK8/TRUNK9/TRUNK10/TRUNK11/TRUNK12/TRUNK13/TRUNK14/TRUNK15/TRUNK16/TRUNK17/TRUNK18/TRUNK19/TRUNK27/TRUNK28/TRUNK29
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/T1/T2/T3/TRUNK/TRUNK1/TRUNK2/TRUNK3/TRUNK4/TRUNK5/TRUNK6/TRUNK7/TRUNK8/TRUNK9/TRUNK10/TRUNK11/TRUNK12/TRUNK13/TRUNK14/TRUNK15/TRUNK16/TRUNK17/TRUNK18/TRUNK19/TRUNK30
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/T1/T2/T3/TRUNK/TRUNK1/TRUNK2/TRUNK3/TRUNK4/TRUNK5/TRUNK6/TRUNK7/TRUNK8/TRUNK9/TRUNK10/TRUNK11/TRUNK12/TRUNK13/TRUNK14/TRUNK15/TRUNK16/TRUNK17/TRUNK18/TRUNK19/TRUNK30/TRUNK31
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/NECK/HEAD1/T1/T2/T3/TRUNK/TRUNK1/TRUNK2/TRUNK3/TRUNK4/TRUNK5/TRUNK6/TRUNK7/TRUNK8/TRUNK9/TRUNK10/TRUNK11/TRUNK12/TRUNK13/TRUNK14/TRUNK15/TRUNK16/TRUNK17/TRUNK18/TRUNK19/TRUNK30/TRUNK31/TRUNK32
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/R_CLAVICLE
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/R_CLAVICLE/R_CLAVICLE_tip
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/R_CLAVICLE/R_SHOLDER
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/R_CLAVICLE/R_SHOLDER/R_SHOLDER1
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/R_CLAVICLE/R_SHOLDER/R_SHOLDER1/R_ELBOW
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/R_CLAVICLE/R_SHOLDER/R_SHOLDER1/R_ELBOW/R_ELBOW1
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/R_CLAVICLE/R_SHOLDER/R_SHOLDER1/R_ELBOW/R_ELBOW1/R_WRIST
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/R_CLAVICLE/R_SHOLDER/R_SHOLDER1/R_ELBOW/R_ELBOW1/R_WRIST/R_PAW
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/R_CLAVICLE/R_SHOLDER/R_SHOLDER1/R_ELBOW/R_ELBOW1/R_WRIST/R_PAW/R_PAW1
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/R_CLAVICLE/R_SHOLDER/R_SHOLDER1/R_ELBOW/R_ELBOW1/R_WRIST/R_PAW/R_PAW1/R_PAWEND
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/R_CLAVICLE/R_SHOLDER/R_SHOLDER1/R_ELBOW/R_ELBOW1/R_WRIST/R_PAW/R_PAW1/RF_INDEX1
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/R_CLAVICLE/R_SHOLDER/R_SHOLDER1/R_ELBOW/R_ELBOW1/R_WRIST/R_PAW/R_PAW1/RF_INDEX1/RF_INDEX2
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/R_CLAVICLE/R_SHOLDER/R_SHOLDER1/R_ELBOW/R_ELBOW1/R_WRIST/R_PAW/R_PAW1/RF_MID1
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/R_CLAVICLE/R_SHOLDER/R_SHOLDER1/R_ELBOW/R_ELBOW1/R_WRIST/R_PAW/R_PAW1/RF_MID1/RF_MID2
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/R_CLAVICLE/R_SHOLDER/R_SHOLDER1/R_ELBOW/R_ELBOW1/R_WRIST/R_PAW/R_PAW1/RF_PINKY1
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/R_CLAVICLE/R_SHOLDER/R_SHOLDER1/R_ELBOW/R_ELBOW1/R_WRIST/R_PAW/R_PAW1/RF_PINKY1/RF_PINKY2
+        weight: 1
+      - path: Placement_C/Master_C/skeleton/ROOT/SPINE1/SPINE2/SPINE3/SPINE4/SPINE5/SPINE6/SPINE7/CHEST1/CHEST2/CHEST3/R_CLAVICLE/R_SHOLDER/R_SHOLDER1/R_ELBOW/R_ELBOW1/R_WRIST/R_PAW/squash2Handle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
